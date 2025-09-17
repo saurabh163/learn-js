@@ -17,8 +17,8 @@ let marks = 85;
 
 // re-assigment problem try
 
-let balance = 5000;   
-let withdraw = 3000;  
+let Balance = 5000;   
+let Withdraw = 3000;  
 
 if (withdraw <= balance) {
     console.log("Transaction Successful");
@@ -51,3 +51,29 @@ else if (password !== "1234") {
   console.log("Invalid Password ");
 }
 
+
+
+//atm withdraw problem
+
+
+let balance = 5000;
+
+let withdraw = 2000; 
+
+if (!withdraw) {
+  console.log("Please enter valid amount....!");
+} 
+
+else if (typeof withdraw !== "number" || withdraw <= 0) {
+  console.log("Invalid Amount");
+} 
+
+else if (withdraw > balance) {
+  console.log("Insufficient Balance");
+} 
+
+else {
+  balance = balance - withdraw;
+  console.log("Transaction Successful");
+  console.log("Remaining Balance");
+}
