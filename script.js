@@ -28,3 +28,26 @@ if (withdraw <= balance) {
     console.log("Insufficient Balance");
 }
 
+
+// login system problem 
+
+let username = "admin";   
+
+let password = "1234";    
+
+if (!username || !password) {
+  console.log("Please enter username and password!");
+} 
+
+else if (username === "admin" && password === "1234") {
+  console.log("Login Successful ");
+} 
+
+else if (username !== "admin") {
+  console.log("Invalid Username ");
+} 
+
+else if (password !== "1234") {
+  console.log("Invalid Password ");
+}
+
