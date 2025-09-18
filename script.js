@@ -146,7 +146,7 @@ else if (mathMarks < 35 || scienceMarks < 35) {
 } 
 
 else if (mathMarks > 80 && scienceMarks > 80) {
-  console.log("Excellent Performance");
+  console.log("Excellent good  Performance");
 } 
 
 else {
