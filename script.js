@@ -129,3 +129,27 @@ else {
   console.log("Delivery charge 50rs add hoga");
   console.log("Total Bill");
 }
+
+
+// result cheqk problem
+
+
+let mathMarks = 85;
+let scienceMarks = 90;
+
+if (mathMarks <= 0 || scienceMarks <= 0) {
+  console.log("Invalid Marks");
+} 
+
+else if (mathMarks < 35 || scienceMarks < 35) {
+  console.log("Fail");
+} 
+
+else if (mathMarks > 80 && scienceMarks > 80) {
+  console.log("Excellent Performance");
+} 
+
+else {
+  console.log("Pass");
+}
+
