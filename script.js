@@ -202,3 +202,21 @@ else {
   console.log("Total Fare");
 }
 
+// start function problem 
+
+
+function checkDriving(age) {
+
+  if (age < 18) {
+    console.log("You cannot drive");
+  
+  } else {
+
+    console.log("You can drive");
+  }
+}
+
+checkDriving(16); 
+checkDriving(20); 
+
+// function callkrna jaruri hai varna out put nai yet 
