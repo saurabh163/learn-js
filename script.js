@@ -215,8 +215,32 @@ function checkDriving(age) {
     console.log("You can drive");
   }
 }
+// function callkrna jaruri hai varna out put nai yet //
 
 checkDriving(16); 
 checkDriving(20); 
 
-// function callkrna jaruri hai varna out put nai yet 
+
+// chekar function problem 
+
+
+function checkResult(marks) {
+  
+  if (marks <= 0) {
+    console.log("Invalid Marks");
+  } 
+
+  else if (marks < 35) {
+    console.log("Fail");
+  } 
+
+  else {
+    console.log("Pass");
+  }
+}
+
+// function calls kiya gaya 
+
+checkResult(0);  
+checkResult(25); 
+checkResult(60);  
