@@ -330,3 +330,34 @@ calculateBill(80);
 calculateBill(150);  
 calculateBill(250);  
 calculateBill(400);  
+
+
+//shoping discount calculate problem
+
+function calculateDiscount(amount) 
+{
+  if (amount <= 0) {
+    console.log("Invalid Amount");
+  } 
+
+  else if (amount < 500) {
+    console.log("No Discount");
+  }
+
+  else if (amount <= 1000) {
+    let discount = amount * 0.10;
+    console.log("10% Discount Applied");
+  }
+
+  else if (amount <= 5000) {
+    let discount = amount * 0.20;
+    console.log("20% Discount Applied");
+  }
+
+  else {
+    let discount = amount * 0.30;
+    console.log("30% Discount Applied");
+  }
+}
+
+  
