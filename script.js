@@ -394,3 +394,18 @@ let userInput = prompt("Enter a number:");
 
 // Call function with input//
 checkNumber(userInput);
+
+
+// new age chek problem try 
+
+let age = prompt("18");
+
+
+age = Number(age);
+
+if (age >= 18) {
+    console.log("You can drive.");
+
+} else {
+    console.log("You cannot drive yet.");
+}
