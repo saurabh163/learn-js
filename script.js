@@ -360,4 +360,13 @@ function calculateDiscount(amount)
   }
 }
 
-  
+  // test function//
+calculateDiscount(-200);  
+
+calculateDiscount(300);  
+
+calculateDiscount(800);  
+
+calculateDiscount(2000);  
+
+calculateDiscount(6000);
