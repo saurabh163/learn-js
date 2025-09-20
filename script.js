@@ -290,3 +290,43 @@ calculateGrade(65);
 calculateGrade(85);   
 calculateGrade(95);   
 calculateGrade(120);  
+
+
+// function electeic bill calculetor 
+
+
+//fuction dicliar karne//
+function calculateBill(units) {
+  let bill = 0;
+
+  if (units <= 0) {
+    console.log("Invalid Units");
+  } 
+
+  else if (units <= 100) {
+    bill = units * 5;
+    console.log("Your Bill");
+  } 
+
+  else if (units <= 200) {
+    bill = units * 7;
+    console.log("Your Bill");
+  }
+
+  else if (units <= 300) {
+    bill = units * 10;
+    console.log("Your Bill");
+  } 
+
+  else {
+    bill = units * 12;
+    console.log("Your Bill");
+  }
+}
+
+// function test karne//
+calculateBill(-10);  
+calculateBill(80);   
+calculateBill(150);  
+calculateBill(250);  
+calculateBill(400);  
