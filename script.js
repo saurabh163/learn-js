@@ -487,3 +487,30 @@ for (let i = 1; i <= 10; i++) {
         console.log(result + " is ODD");
     }
 }
+
+
+// student function and forloop use 
+
+function checkResults(marksList) {
+
+    for (let i = 0; i < marksList.length; i++) {
+        let marks = marksList[i];
+
+        if (marks >= 90) {
+            console.log("Student " + (i+1) + ": Grade A");
+
+        } else if (marks >= 70) {
+            console.log("Student " + (i+1) + ": Grade B");
+
+        } else if (marks >= 50) {
+            console.log("Student " + (i+1) + ": Grade C ");
+
+        } else {
+            console.log("Student " + (i+1) + ": Fail ");
+        }
+    }
+}
+
+// Test  function
+let studentsMarks = [95, 82, 67, 45, 100];
+checkResults(studentsMarks);
