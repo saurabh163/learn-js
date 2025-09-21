@@ -471,3 +471,19 @@ calculateDiscount(myBill);
 for (let i = 1; i <= 10; i++) {
     console.log("Number: " + i);
 }
+
+
+// for loop chek even-odd num
+
+let num = 5;  
+
+for (let i = 1; i <= 10; i++) {
+    let result = num * i;
+
+    if (result % 2 === 0) {
+        console.log(result + " is EVEN");
+
+    } else {
+        console.log(result + " is ODD");
+    }
+}
