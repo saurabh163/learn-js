@@ -409,3 +409,29 @@ if (age >= 18) {
 } else {
     console.log("You cannot drive yet.");
 }
+
+
+//grade check function problem
+
+function checkGrade(marks) {
+    let grade;
+
+    if (marks >= 90) {
+        grade = "A";
+
+    } else if (marks >= 70) {
+        grade = "B";
+
+    } else if (marks >= 50) {
+        grade = "C";
+
+    } else {
+        grade = "Fail";
+    }
+
+    console.log("Your grade is: " + grade);
+}
+
+// test the function work//
+let studentMarks = 65; 
+checkGrade(studentMarks);
