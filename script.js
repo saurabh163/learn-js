@@ -584,3 +584,54 @@ function calculateScore(answers) {
 // Test function
 let studentAnswers = ["correct", "wrong", "correct", "wrong", "wrong", "correct"];
 calculateScore(studentAnswers);
+
+
+
+//grocery bill
+
+function generateBill(items) {
+    let grandTotal = 0;
+
+    console.log("------ Grocery Bill ------");
+
+    for (let i = 0; i < items.length; i++) {
+        let item = items[i];
+        let total = item.quantity * item.price;
+        grandTotal += total;
+
+        console.log(
+            item.name + " - " + item.quantity + " × ₹" + item.price + " = ₹" + total
+        );
+    }
+
+    console.log("--------------------------");
+    console.log("Grand Total = ₹" + grandTotal);
+
+    // Apply discount
+    let discount = 0;
+    if (grandTotal > 1000) {
+        discount = grandTotal * 0.1;
+        console.log("10% Discount Applied = ₹" + discount);
+
+    } else if (grandTotal >= 500) {
+        discount = grandTotal * 0.05;
+        console.log("5% Discount Applied = ₹" + discount);
+
+    } else {
+        console.log("No Discount Applied");
+    }
+
+    let finalAmount = grandTotal - discount;
+    console.log("Final Payable Amount = ₹" + finalAmount);
+}
+
+// Test function
+
+let cart = [
+    { name: "Rice", quantity: 2, price: 60 },
+    { name: "Oil", quantity: 1, price: 150 },
+    { name: "Milk", quantity: 5, price: 40 },
+    { name: "Sugar", quantity: 3, price: 50 }
+];
+
+generateBill(cart);
