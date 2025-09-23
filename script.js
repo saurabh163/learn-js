@@ -545,3 +545,42 @@ function borrowBooks(userLimit, booksRequested) {
 let limit = 5; 
 let requests = [2, 0, 3, 1, 2];
 borrowBooks(limit, requests);
+
+
+
+//exam scoring problem 
+
+
+function calculateScore(answers) {
+    let score = 0;
+
+    for (let i = 0; i < answers.length; i++) {
+      
+        if (answers[i] === "correct") {
+            score += 4;
+            console.log("Q" + (i+1) + ": Correct (+4)");
+
+        } else if (answers[i] === "wrong") {
+            score -= 1;
+            console.log("Q" + (i+1) + ": Wrong (-1)");
+
+        } else {
+            console.log("Q" + (i+1) + ": Invalid Answer (No marks)");
+        }
+        console.log("Current Score: " + score);
+        console.log("-------------------------");
+    }
+
+    console.log("Final Score = " + score);
+
+    if (score < 0) {
+        console.log("Better luck next time");
+
+    } else {
+        console.log("Good job");
+    }
+}
+
+// Test function
+let studentAnswers = ["correct", "wrong", "correct", "wrong", "wrong", "correct"];
+calculateScore(studentAnswers);
