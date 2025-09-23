@@ -657,3 +657,22 @@ function checkNumbers(nums) {
 }
 
 checkNumbers([5, -2, 0, 10, -7]);
+
+
+// voting elagibility problem
+
+function checkVoting(ages) {
+
+    for (let i = 0; i < ages.length; i++) {
+        let age = ages[i];
+
+        if (age >= 18) {
+            console.log("Person " + (i+1) + ": Eligible to Vote");
+
+        } else {
+            console.log("Person " + (i+1) + ": Not Eligible");
+        }
+    }
+}
+
+checkVoting([12, 18, 25, 16, 40]);
