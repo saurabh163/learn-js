@@ -681,10 +681,27 @@ checkVoting([12, 18, 25, 16, 40]);
 // Multiplication revise
 
 function multiplicationTable(num) {
-  
+
     for (let i = 1; i <= 10; i++) {
         console.log(num + " × " + i + " = " + (num * i));
     }
 }
 
 multiplicationTable(5); 
+
+
+
+//  some of number loop problem
+
+
+function sumOfNumbers(N) {
+    let sum = 0;
+
+    for (let i = 1; i <= N; i++) {
+        sum += i;  
+    }
+
+    console.log("Sum of numbers from 1 to " + N + " = " + sum);
+}
+
+sumOfNumbers(10);  
