@@ -730,3 +730,13 @@ function countEvenOdd(N) {
 }
 
 countEvenOdd(10); 
+
+// revers count problem
+
+function reverscounting(){
+  for(let i = 10; i >= 1; i--){
+    console.log(i);
+  }
+}
+
+reverscounting();
