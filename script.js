@@ -705,3 +705,28 @@ function sumOfNumbers(N) {
 }
 
 sumOfNumbers(10);  
+
+
+// even odd number problem 
+
+function countEvenOdd(N) {
+    let evenCount = 0; 
+    let oddCount = 0;  
+
+    for (let i = 1; i <= N; i++) {
+
+        if (i % 2 === 0) {
+            console.log(i + " is Even");
+            evenCount++;
+            
+        } else {
+            console.log(i + " is Odd");
+            oddCount++;
+        }
+    }
+
+    console.log("Total Even Numbers");
+    console.log("Total Odd Numbers");
+}
+
+countEvenOdd(10); 
