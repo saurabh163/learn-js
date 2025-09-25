@@ -818,6 +818,60 @@ for (let i = 1; i <= 10; i++) {
 }
 
 
+// problem 6 for loop reverse number print
+
+for (let i = 10; i >= 1; i--) {
+  console.log(i);
+}
+
+
+// problem 7 positeve negative number check if-else
+
+let numb = -3;
+
+  if (numb > 0) {
+    console.log("Positive");
+
+} else if (numb < 0) {
+    console.log("Negative");
+
+} else {
+    console.log("Zero");
+}
+
+
+//problem 8 even number print with for loop
+
+for (let i = 1; i <= 20; i++) {
+
+  if (i % 2 === 0) {
+    console.log(i);
+  }
+}
+
+
+// problem 9 for loop sum problem 
+
+let Sum = 0;
+
+for (let i = 1; i <= 10; i++) {
+  Sum += i; // iska mtlb ki sum hone ke bad sum + i ki value //
+}
+
+console.log("Sum =", sum);
+
+
+// problem 10 factrial of a number with for loop 
+
+let n = 5;
+let fact = 1;
+
+for (let i = 1; i <= n; i++) {
+  fact *= i; // iska mtlb ki aane wali value ko multiply i se krna //
+}
+
+console.log("Factorial =", fact);
+
 
 
 
