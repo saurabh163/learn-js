@@ -913,4 +913,24 @@ for (let i = 1; i <= 10; i++) {
     }
 }
 
+// student exam de sakte ki nai chek with if-else
+
+  let studentName = "Ravi";
+let Age = 17;
+let mark = 55;
+
+console.log("Checking eligibility for: " + studentName);
+
+if (Age >= 18 && mark >= 50) {
+    console.log("Student can appear for exam");
+
+} else if (Age < 18 && mark >= 50) {
+    console.log("Student too young");
+
+} else if (Age >= 18 && mark < 50) {
+    console.log("Student failed");
+
+} else {
+    console.log("Student too young and failed");
+}
 
