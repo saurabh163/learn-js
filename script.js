@@ -872,6 +872,20 @@ for (let i = 1; i <= n; i++) {
 
 console.log("Factorial =", fact);
 
+// arr   use krun possitive nigetive number print karana 
 
+let arr = [2, -5, 0, 8, -1];
 
+for (let i = 0; i < arr.length; i++) {
+
+    if (arr[i] > 0) {
+        console.log(arr[i] + " is Positive");
+
+    } else if (arr[i] < 0) {
+        console.log(arr[i] + " is Negative");
+        
+    } else {
+        console.log(arr[i] + " is Zero");
+    }
+}
 
