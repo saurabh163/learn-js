@@ -475,7 +475,7 @@ for (let i = 1; i <= 10; i++) {
 
 // for loop chek even-odd num
 
-let num = 5;  
+let Num = 5;  
 
 for (let i = 1; i <= 10; i++) {
     let result = num * i;
@@ -771,4 +771,53 @@ function findLargestNumber(numbers) {
 
 // Test arr
 findLargestNumber([12, 45, 7, 89, 23, 56]);
+
+
+
+// 10 revies problem ivariable if-else for loop
+
+//problem 1 variable kause krke sum krna
+
+ let a = 10;
+ let b = 20;
+ let sum = a + b;
+   console.log("Sum =", sum);
+
+// problem 2 even odd number chek krna 
+
+  let num = 7;
+
+    if (num % 2 === 0) {
+      console.log("Even");
+
+}   else {
+      console.log("Odd");
+}
+
+// problem 3 bada number print krna 
+
+let x = 15;
+let y = 25;
+
+ if (x > y) {
+    console.log("Largest =", x);
+} else {
+    console.log("Largest =", y);
+}
+
+// problem 4 for loop se number print 
+
+for (let i = 1; i <= 5; i++) {
+  console.log(i);
+}
+
+// problem 5 multiplya krke tabel print kkrna 
+
+for (let i = 1; i <= 10; i++) {
+  console.log("5 x " + i + " = " + (5 * i));
+}
+
+
+
+
 
