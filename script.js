@@ -943,8 +943,24 @@ let numbers = [1,2,3,4,5,6,7,8,9,10];
 console.log("Even numbers in the array:");
 
 for (let i = 0; i < numbers.length; i++) {
-  
+
     if (numbers[i] % 2 === 0) {   
         console.log(numbers[i]);
+    }
+}
+
+// student pass fail check krna with arr
+
+let Mark = [35, 60, 25, 80, 55];
+
+console.log("Students Result:");
+
+for (let i = 0; i < Mark.length; i++) {
+
+    if (Mark[i] >= 40) {
+        console.log("Student " + (i+1) + ": Pass (Mark = " + Mark[i] + ")");
+        
+    } else {
+        console.log("Student " + (i+1) + ": Fail (Mark = " + Mark[i] + ")");
     }
 }
