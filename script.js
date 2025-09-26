@@ -994,3 +994,47 @@ if (score >= 90) {
      console.log("Grade: None");
      console.log("Status: Fail");
 }
+
+
+// if else problem
+
+let Score = parseInt(prompt("Enter your marks:"));
+
+if (Score > 100 || Score < 0) {
+    console.log("Invalid Marks");
+
+  } else if (Score >= 90) {
+    console.log("Grade A");
+
+} else if (Score >= 75) {
+    console.log("Grade B");
+
+} else if (Score >= 50) {
+    console.log("Grade C");
+
+} else if (Score >= 33) {
+    console.log("Grade D");
+
+} else {
+    console.log("Fail");
+}
+
+
+//for loop problem
+
+let m = parseInt(prompt("Enter a number:"));
+
+let evenSum = 0;
+let oddSum = 0;
+
+for (let i = 1; i <= m; i++) {
+    if (i % 2 === 0) {
+        evenSum += i;   // ye even number add krnar
+        
+    } else {
+        oddSum += i;    // ha odd number add krar 
+    }
+}
+
+console.log("Sum of even numbers: " + evenSum);
+console.log("Sum of odd numbers: " + oddSum);
