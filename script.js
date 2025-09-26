@@ -1038,3 +1038,27 @@ for (let i = 1; i <= m; i++) {
 
 console.log("Sum of even numbers: " + evenSum);
 console.log("Sum of odd numbers: " + oddSum);
+
+// for loop 
+
+for (let i = 1; i <= 50; i++) {
+
+    if (i % 2 === 0) { // % this is modulus operator 
+        console.log(i + " is Even");
+
+    } else {
+        console.log(i + " is Odd");
+    }
+}
+
+
+// or oprator use
+
+let s = 10;
+
+if (s > 5 || s < 3) {  // || or oprater iska use do condition ko chek krke output deta hai
+    console.log("Condition True");
+
+} else {
+    console.log("Condition False");
+}
