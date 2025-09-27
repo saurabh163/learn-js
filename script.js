@@ -1152,3 +1152,15 @@ if(temp >= 30){
 } else {
     alert("It’s cold! Wear warm clothes");
 }
+
+
+// even odd chek with if else 
+
+  let N = parseInt(prompt("Enter a number:"));
+
+if(N % 2 === 0){
+    alert("Number is even");
+    
+} else {
+    alert("Number is odd");
+}
