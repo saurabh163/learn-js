@@ -1137,3 +1137,18 @@ for (let num of ARR) {
 console.log("Even numbers:", evenCount);
 console.log("Odd numbers:", oddCount);
 
+
+// wether chek with if else
+
+
+  let temp = parseFloat(prompt("Enter the current temperature in Celsius:"));
+
+if(temp >= 30){
+    alert("It’s hot! Wear light clothes");
+
+} else if(temp >= 20 && temp < 30){
+    alert("Nice weather! Enjoy");
+
+} else {
+    alert("It’s cold! Wear warm clothes");
+}
