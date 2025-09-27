@@ -1062,3 +1062,78 @@ if (s > 5 || s < 3) {  // || or oprater iska use do condition ko chek krke outpu
 } else {
     console.log("Condition False");
 }
+
+
+// arr se input and output nikalna 
+
+let arry = [];
+
+for (let i = 0; i < 5; i++) { // this line tell her to 5 numbers input
+
+  let num = parseInt(prompt("Enter number:"));
+  arr.push(num);
+}
+
+console.log("Array elements are:");
+for (let n of arry) {   // this line to print the numbers
+  console.log(n);
+}
+
+
+// arr sum 
+
+let Arr = [10, 20, 30, 40, 50];
+let totl = 0;
+
+for (let num of Arr) {
+  totl += num;
+}
+
+console.log("totl of array elements =", totl);
+
+
+// maximum number find in arry
+
+let are = [12, 45, 2, 67, 34];
+let maxNum = arr[0];
+
+for (let num of are) {
+
+  if (num > maxNum) {
+    maxNum = num;
+  }
+}
+
+console.log("Maximum number is:", maxNum);
+
+
+
+// arr revorse 
+
+let A = [1, 2, 3, 4, 5];
+
+console.log("Original array:", A);
+console.log("Reversed array:", A.reverse());
+
+
+
+// count even and odd in arr
+
+let ARR = [10, 21, 32, 43, 54];
+
+let evenCount = 0;
+let oddCount = 0;
+
+for (let num of ARR) {
+
+  if (num % 2 === 0) { // remainder oprator chek 
+    evenCount++;
+  } else {
+
+    oddCount++;
+  }
+}
+
+console.log("Even numbers:", evenCount);
+console.log("Odd numbers:", oddCount);
+
