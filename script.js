@@ -1164,3 +1164,17 @@ if(N % 2 === 0){
 } else {
     alert("Number is odd");
 }
+
+//temprature chek
+
+let Temp = parseFloat(prompt("Enter temperature in °C:"));
+
+if(Temp >= 30){
+    alert("It’s hot");
+
+} else if(Temp >= 20){
+    alert("Nice weather");
+
+} else {
+    alert("It’s cold");
+}
