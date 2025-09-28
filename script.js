@@ -1226,3 +1226,12 @@ if (number % 2 === 0) {   // modulos operator use  for divide
 } else {
     console.log("Odd number");
 }
+
+
+// arry problem
+
+let Numbers = [10, 20, 30, 40, 50]; // i create a one arry
+
+for (let i = 0; i < Numbers.length; i++) { // total lenght how number in arry
+    console.log("Numbers at index", i, "is:", Numbers[i]);
+}
