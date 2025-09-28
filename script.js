@@ -1264,3 +1264,24 @@ function sumArray(numbers) {
 // use function call
 let Result = sumArray([2, 4, 6, 8]);
 console.log("Sum of array is:", result);
+
+
+// arr even odd number 
+
+let NBR = [2, 5, 8, 7, 10, 3]; 
+
+let EvenCount = 0; // this for even number count
+let OddCount = 0;  // this for odd number count
+
+for (let i = 0; i < NBR.length; i++) {
+
+    if (NBR[i] % 2 === 0) { // modulor oprator for chek number 
+        EvenCount++;
+
+    } else {
+       OddCount++;
+    }
+}
+
+console.log("Even numbers count:", EvenCount);
+console.log("Odd numbers count:", OddCount);
