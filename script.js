@@ -1247,3 +1247,20 @@ for (let i = 0; i < Number.length; i++) { // how many total munber in the arr
         console.log("Even number:", Number[i]);
     }
 }
+
+
+// all number sum with help of arry
+
+function sumArray(numbers) {
+    let sum = 0; //this variable store a sum of number 
+
+    for (let i = 0; i < numbers.length; i++) {
+        sum += numbers[i]; // they sad all number add in sum
+    }
+
+    return sum; // they sad final result ki sum
+}
+
+// use function call
+let Result = sumArray([2, 4, 6, 8]);
+console.log("Sum of array is:", result);
