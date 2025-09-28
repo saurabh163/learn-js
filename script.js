@@ -1235,3 +1235,15 @@ let Numbers = [10, 20, 30, 40, 50]; // i create a one arry
 for (let i = 0; i < Numbers.length; i++) { // total lenght how number in arry
     console.log("Numbers at index", i, "is:", Numbers[i]);
 }
+
+
+// print even number with use of arry 
+
+let Number = [5, 12, 7, 8, 3, 10]; 
+
+for (let i = 0; i < Number.length; i++) { // how many total munber in the arr 
+
+    if (Number[i] % 2 === 0) { // check number with modulas oprator
+        console.log("Even number:", Number[i]);
+    }
+}
