@@ -1178,3 +1178,16 @@ if(Temp >= 30){
 } else {
     alert("It’s cold");
 }
+   
+
+
+//  if else try  
+
+let vay = 16; // yaha tum khud age badal ke check kar sakte ho
+
+if (vay >= 18) {
+    console.log("You are eligible to vote");
+    
+} else {
+    console.log("You are not eligible to vote");
+}
