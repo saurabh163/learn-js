@@ -1213,3 +1213,16 @@ function findMax(numbers) {
 
 let result = findMax([2, 7, 4, 9, 1]); // i creat aar for a final call
 console.log("Largest number is:", result);
+
+
+
+// if else problem 
+
+let number = 7; 
+
+if (number % 2 === 0) {   // modulos operator use  for divide 
+    console.log("Even number");
+
+} else {
+    console.log("Odd number");
+}
