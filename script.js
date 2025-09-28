@@ -1187,7 +1187,29 @@ let vay = 16; // yaha tum khud age badal ke check kar sakte ho
 
 if (vay >= 18) {
     console.log("You are eligible to vote");
-    
+
 } else {
     console.log("You are not eligible to vote");
 }
+
+
+
+
+// arrye problem solve 
+
+
+function findMax(numbers) {
+    let max = numbers[0]; // guess the fist numbr is a big number 
+
+    for (let i = 1; i < numbers.length; i++) { // use a for loop
+
+        if (numbers[i] > max) {
+            max = numbers[i]; // the mennig is if big numbar mila to add kr dena 
+        }
+    }
+
+    return max;  // the line is return a big number 
+}
+
+let result = findMax([2, 7, 4, 9, 1]); // i creat aar for a final call
+console.log("Largest number is:", result);
