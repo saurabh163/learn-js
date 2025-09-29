@@ -1285,3 +1285,14 @@ for (let i = 0; i < NBR.length; i++) {
 
 console.log("Even numbers count:", EvenCount);
 console.log("Odd numbers count:", OddCount);
+
+
+//arr fruits  que 
+
+let fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes"];
+
+console.log("First fruit:", fruits[0]); 
+
+console.log("Last fruit:", fruits[fruits.length - 1]); // in this problem i use a arry length proprty 
+
+console.log("Middle fruit:", fruits[2]);
