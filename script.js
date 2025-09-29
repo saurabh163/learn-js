@@ -1328,11 +1328,23 @@ if (a > b) {
 
 // if else 
 
-  let Aage = 16; // yaha tum khud value change karke test kar sakte ho
+  let Aage = 16; 
 
 if (Aage >= 18) {
     console.log("You are an adult");
-    
+
 } else {
     console.log("You are a minor");
+}
+
+
+// iff  else 
+
+  let nbr = 11;
+
+if (nbr % 2 === 0) { // modulor oprator
+    console.log("Even");
+
+} else {
+    console.log("Odd");
 }
