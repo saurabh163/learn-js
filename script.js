@@ -1307,3 +1307,19 @@ console.log("Total students:", students.length); // the lenghth in this arrr is 
 console.log("First student:", students[0]); 
 
 console.log("Last student:", students[students.length - 1]); 
+
+
+// largest numbe find with if else
+
+  let S = 15;
+let Ni = 20;
+
+if (a > b) {
+    console.log("a is greater");
+
+} else if (b > a) {
+    console.log("b is greater");
+
+  } else {
+    console.log("Both are equal");
+}
