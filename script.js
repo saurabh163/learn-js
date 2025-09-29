@@ -1287,7 +1287,7 @@ console.log("Even numbers count:", EvenCount);
 console.log("Odd numbers count:", OddCount);
 
 
-//arr fruits  que 
+//arr lenghth  que 
 
 let fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes"];
 
@@ -1296,3 +1296,14 @@ console.log("First fruit:", fruits[0]);
 console.log("Last fruit:", fruits[fruits.length - 1]); // in this problem i use a arry length proprty 
 
 console.log("Middle fruit:", fruits[2]);
+
+
+// one more lenghth que
+
+let students = ["Aman", "Saurabh", "Riya", "Kunal", "Priya"];
+
+console.log("Total students:", students.length); // the lenghth in this arrr is 5
+
+console.log("First student:", students[0]); 
+
+console.log("Last student:", students[students.length - 1]); 
