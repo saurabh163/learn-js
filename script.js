@@ -1348,3 +1348,19 @@ if (nbr % 2 === 0) { // modulor oprator
 } else {
     console.log("Odd");
 }
+
+
+
+// smalest value 
+
+let value = [15, 7, 22, 3, 18];
+let smallest = value[0]; // this line is for fst number assum is small 
+
+for (let i = 1; i < value.length; i++) {
+
+    if (value[i] < smallest) {
+        smallest = value[i]; // in this case small valu find to update value 
+    }
+}
+
+console.log("Smallest value is:", smallest);
