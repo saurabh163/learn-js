@@ -1323,3 +1323,16 @@ if (a > b) {
   } else {
     console.log("Both are equal");
 }
+
+
+
+// if else 
+
+  let Aage = 16; // yaha tum khud value change karke test kar sakte ho
+
+if (Aage >= 18) {
+    console.log("You are an adult");
+    
+} else {
+    console.log("You are a minor");
+}
