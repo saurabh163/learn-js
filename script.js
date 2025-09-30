@@ -1431,9 +1431,35 @@ let nambr = 8;
 
 if (nunambrm > 10) {
     console.log("True");
-    
+
 } else {
     console.log("False");
 }
 
 
+// true false 
+
+
+let Numbr = 7;
+
+if (Numbr % 2 === 0) {  /// in this line modulos oprator use huwa hai 
+    console.log("True");
+
+} else {
+    console.log("False");
+}
+
+
+
+// own create problem
+
+
+let hate = 10;
+let love = 15;
+
+if (a === b) {
+    console.log("True");
+    
+} else {
+    console.log("False");
+}
