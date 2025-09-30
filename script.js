@@ -1386,3 +1386,31 @@ let lastColor = colors[colors.length - 1]; // this line code give as last index 
 
 console.log("First color is:", firstColor);
 console.log("Last color is:", lastColor);
+
+
+
+// if else
+
+  let Mrk = 72;
+
+if (Mrk >= 90 && Mrk <= 100) {
+    console.log("Grade: A+");
+
+} else if (Mrk >= 75 && Mrk < 90) {
+    console.log("Grade: A");
+
+} else if (Mrk >= 60 && Mrk < 75) {
+    console.log("Grade: B");
+
+} else if (Mrk >= 45 && Mrk < 60) {
+    console.log("Grade: C");
+
+} else if (Mrk >= 33 && Mrk < 45) {
+    console.log("Grade: D");
+
+} else if (Mrk >= 0 && Mrk < 33) {
+    console.log("Grade: Fail");
+    
+} else {
+    console.log("Invalid Marks");
+}
