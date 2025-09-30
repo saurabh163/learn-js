@@ -1455,11 +1455,11 @@ if (Numbr % 2 === 0) {  /// in this line modulos oprator use huwa hai
 
 
 let hate = 10;
-let love = 15;
+let love = 20;
 
 if (a === b) {
     console.log("True");
-    
+
 } else {
     console.log("False");
 }
