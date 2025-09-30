@@ -1364,3 +1364,13 @@ for (let i = 1; i < value.length; i++) {
 }
 
 console.log("Smallest value is:", smallest);
+
+
+
+// arry que 
+
+let Fruits = ["sef", "kel", "aamba", "santra"];
+
+for (let i = 0; i < fruits.length; i++) {
+    console.log(fruits[i]);
+}
