@@ -1423,3 +1423,17 @@ let nbrs = [1, 2, 3, 4, 5];
 for (let i = 0; i < nbrs.length; i++) {
     console.log(nbrs[i]);
 }
+
+
+// tru false 
+
+let nambr = 8;
+
+if (nunambrm > 10) {
+    console.log("True");
+    
+} else {
+    console.log("False");
+}
+
+
