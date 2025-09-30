@@ -1374,3 +1374,15 @@ let Fruits = ["sef", "kel", "aamba", "santra"];
 for (let i = 0; i < fruits.length; i++) {
     console.log(fruits[i]);
 }
+
+
+
+// are que 
+
+let colors = ["Red", "Green", "Blue", "Yellow", "rasian color"];
+
+let firstColor = colors[0]; // this line code give as fist element in the arr
+let lastColor = colors[colors.length - 1]; // this line code give as last index use  last elemet acess krta hai
+
+console.log("First color is:", firstColor);
+console.log("Last color is:", lastColor);
