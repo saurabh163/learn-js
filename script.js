@@ -1463,3 +1463,14 @@ if (a === b) {
 } else {
     console.log("False");
 }
+
+
+
+
+// problem 1
+
+let cities = ["nagpur", "Mumbai", "shegao", "wardha"];
+
+for (let i = 0; i < cities.length; i++) {
+    console.log(cities[i]);
+}
