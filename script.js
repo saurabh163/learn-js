@@ -1467,10 +1467,24 @@ if (a === b) {
 
 
 
-// problem 1
+// problem 01
 
 let cities = ["nagpur", "Mumbai", "shegao", "wardha"];
 
 for (let i = 0; i < cities.length; i++) {
     console.log(cities[i]);
 }
+
+
+
+// problem 02
+
+let Value = 120;
+
+if (Value >= 100) {
+    console.log("True");
+
+} else {
+    console.log("False");
+}
+
