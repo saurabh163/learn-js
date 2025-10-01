@@ -1505,7 +1505,28 @@ if (colour >= 90) {
 
 } else if (colour >= 33) {
     console.log("Grade D");
-    
+
 } else {
     console.log("Fail");
 }
+
+
+
+
+
+// problem  04 
+ 
+let NBRS = [12, 45, 67, 23, 89, 5, 34];
+
+let largest = NBRS[0];  // assume the first element is a large number
+
+for (let i = 1; i < NBRS.length; i++) {  /// i use a Comparison operator 
+
+    if (NBRS[i] > largest) {
+        largest = NBRS[i];
+    }
+}
+
+console.log("Largest number is:", largest);
+
+
