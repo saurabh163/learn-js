@@ -1545,3 +1545,17 @@ for (let i = 0; i < numbErs.length; i++) {
 }
 
 console.log("Total even numbErs are:", evencount);
+
+
+
+
+// problem 06
+
+let nuMbers = [3, 6, 9, 12, 15, 18];
+
+for (let i = 0; i < nuMbers.length; i++) {
+
+    if (nuMbers[i] % 2 !== 0) { // modulos oprator use
+        console.log(nuMbers[i]);
+    }
+}
