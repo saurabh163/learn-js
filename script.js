@@ -1530,3 +1530,18 @@ for (let i = 1; i < NBRS.length; i++) {  /// i use a Comparison operator
 console.log("Largest number is:", largest);
 
 
+
+
+// problem 05 
+
+let numbErs = [2, 7, 8, 11, 14, 21, 30];
+
+let evencount = 0;
+
+for (let i = 0; i < numbErs.length; i++) {
+    if (numbErs[i] % 2 === 0) { /// modulos oprator use in the problem
+        evencount++;
+    }
+}
+
+console.log("Total even numbErs are:", evencount);
