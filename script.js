@@ -1488,3 +1488,24 @@ if (Value >= 100) {
     console.log("False");
 }
 
+
+
+// problem 03
+
+let colour = 100;
+
+if (colour >= 90) {
+    console.log("Grade A");
+
+} else if (colour >= 75) {
+    console.log("Grade B");
+
+} else if (colour >= 50) {
+    console.log("Grade C");
+
+} else if (colour >= 33) {
+    console.log("Grade D");
+    
+} else {
+    console.log("Fail");
+}
