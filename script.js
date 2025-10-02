@@ -1579,3 +1579,25 @@ let numbRs = [10, 20, 30, 40, 50];
 for (let i = numbRs.length - 1; i >= 0; i--) {
     console.log(numbRs[i]);
 }
+
+
+
+// problem 03 
+
+let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+let evenNumbers = [];
+let oddNumbers = [];
+
+for (let i = 0; i < nums.length; i++) {
+
+    if (nums[i] % 2 === 0) {
+        evenNumbers.push(nums[i]); // pushh for new element add krne ke liye 
+
+    } else {
+        oddNumbers.push(nums[i]);
+    }
+}
+
+console.log("Even numbers:", evenNumbers);
+console.log("Odd numbers:", oddNumbers);
