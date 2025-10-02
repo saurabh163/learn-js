@@ -1601,3 +1601,15 @@ for (let i = 0; i < nums.length; i++) {
 
 console.log("Even numbers:", evenNumbers);
 console.log("Odd numbers:", oddNumbers);
+
+
+
+
+/// problem 04 
+
+
+let frUits = ["Apple", "Bnana", "Mango"];
+
+for (let i = 0; i < frUits.length; i++) {
+    console.log(frUits[i]);
+}
