@@ -1613,3 +1613,23 @@ let frUits = ["Apple", "Bnana", "Mango"];
 for (let i = 0; i < frUits.length; i++) {
     console.log(frUits[i]);
 }
+
+
+
+
+// problem 05 
+
+let numS = -15;
+
+if (numS > 0) {
+    console.log("True Number is Positive");
+
+} else if (numS < 0) {
+    console.log("True Number is Negative");
+
+} else if (numS === 0) {
+    console.log("True  Number is Zero");
+
+} else {
+    console.log("False Invalid Input");
+}
