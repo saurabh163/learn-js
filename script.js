@@ -1655,3 +1655,15 @@ if (agE <= 0) {
 } else {
     console.log("Senior Citizen Ticket 70 Rs");
 }
+
+
+// problem 07
+
+let nUms = 9;
+
+if (nUms % 2 === 0) {
+    console.log("Even Number");
+    
+} else {
+    console.log("Odd Number");
+}
