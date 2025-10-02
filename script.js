@@ -1559,3 +1559,12 @@ for (let i = 0; i < nuMbers.length; i++) {
         console.log(nuMbers[i]);
     }
 }
+
+
+
+// problem 01
+
+let fruIts = ["Apple", "Banana", "Mango", "Orange", "Grapes"];
+
+console.log("First fruit is:", fruIts[0]);
+console.log("Last fruit is:", fruIts[fruIts.length - 1]);
