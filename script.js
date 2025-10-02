@@ -1633,3 +1633,25 @@ if (numS > 0) {
 } else {
     console.log("False Invalid Input");
 }
+
+
+
+// problem 06 
+
+let agE = 45;
+
+if (agE <= 0) {
+    console.log("Invalid Age");
+
+} else if (agE < 5) {
+    console.log("Free Ticket");
+
+} else if (agE >= 5 && agE < 18) {
+    console.log("Child Ticket 50 Rs");
+
+} else if (agE >= 18 && agE < 60) {
+    console.log("Adult Ticket 100 Rs");
+
+} else {
+    console.log("Senior Citizen Ticket 70 Rs");
+}
