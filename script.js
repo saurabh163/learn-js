@@ -1758,3 +1758,17 @@ if (WIthdraw <= BalanCe) {
 } else {
     console.log("Insufficient BalanCe");
 }
+
+
+
+
+///   even odd 
+let nUMs = 6;
+
+if (nUMs % 2 === 0) {
+    console.log("Even Number");
+    
+} else {
+    console.log("Odd Number");
+}
+
