@@ -1742,3 +1742,19 @@ if (operation === "add") {
 } else {
     console.log("Invalid Operation");
 }
+
+
+//// re-assigment problem try
+
+let BalanCe = 5000;   
+let WIthdraw = 3000;  
+
+if (WIthdraw <= BalanCe) {
+    console.log("Transaction Successful");
+
+    balance = BalanCe - WIthdraw;  
+    console.log("Remaining BalanCe: " + BalanCe);
+    
+} else {
+    console.log("Insufficient BalanCe");
+}
