@@ -1667,3 +1667,26 @@ if (nUms % 2 === 0) {
 } else {
     console.log("Odd Number");
 }
+
+
+
+
+//if-else problem try
+
+let markS = 85; 
+
+ if (markS >= 90) 
+    console.log(" Grade A ");
+
+  else if (markS >= 75) 
+    console.log(" Grade B ");
+
+  else if (markS >= 50) 
+    console.log(" Grade C ");
+
+  else 
+    console.log(" Fail ");
+ 
+
+
+
