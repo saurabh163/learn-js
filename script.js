@@ -1724,3 +1724,21 @@ for (let i = 1; i <= 5; i++) {
         console.log(i + " is Odd");
     }
 }
+
+
+
+// variables and if else
+
+let W = 20;
+let G = 10;
+let operation = "add";
+
+if (operation === "add") {
+    console.log("Result is:", W + G); ///IN THIS CODE USE Arithmetic operators 
+
+} else if (operation === "sub") {
+    console.log("Result is:", W - G);
+
+} else {
+    console.log("Invalid Operation");
+}
