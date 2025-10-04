@@ -65,3 +65,17 @@ for (let i = 1; i <= 5; i++) {
         console.log(i + " is Odd");
     }
 }
+
+
+// problem 04 
+
+
+for (let i = 1; i <= 10; i++) {
+
+    if (i % 3 === 0) {
+        console.log(i + " is divisible by 3");    // for loop divide 
+        
+    } else {
+        console.log(i + " is not divisible by 3");
+    }
+}
