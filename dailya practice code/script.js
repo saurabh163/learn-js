@@ -51,3 +51,17 @@ if (age >= 18) {
 } else {
     console.log("You cannot drive yet.");
 }
+
+
+
+// problem 03 
+
+for (let i = 1; i <= 5; i++) {
+
+    if (i % 2 === 0) {
+        console.log(i + " is Even");
+
+    } else {
+        console.log(i + " is Odd");
+    }
+}
