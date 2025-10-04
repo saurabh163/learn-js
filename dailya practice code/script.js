@@ -113,3 +113,10 @@ let num = 7;
 for (let i = 1; i <= 10; i++) {
     console.log(num + " x " + i + " = " + (num * i));  // multiplication taber arry solve 
 }
+
+
+// problem 07
+
+let colors = ["Red", "Green", "Blue"];
+
+console.log("Array length is:", colors.length);  // arry lenght proparty use inthis code 
