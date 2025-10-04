@@ -103,3 +103,13 @@ if (Age >= 18 && mark >= 50) {
 } else {
     console.log("Student too young and failed");
 }
+
+
+
+// problem 06
+
+let num = 7;
+
+for (let i = 1; i <= 10; i++) {
+    console.log(num + " x " + i + " = " + (num * i));  // multiplication taber arry solve 
+}
