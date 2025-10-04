@@ -36,3 +36,18 @@ calculateDiscount(800);
 calculateDiscount(2000);  
 
 calculateDiscount(6000);
+
+
+///// problem 02 
+
+let age = prompt("18");
+
+
+age = Number(age);
+
+if (age >= 18) {
+    console.log("You can drive.");
+
+} else {
+    console.log("You cannot drive yet.");
+}
