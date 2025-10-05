@@ -120,3 +120,17 @@ for (let i = 1; i <= 10; i++) {
 let colors = ["Red", "Green", "Blue"];
 
 console.log("Array length is:", colors.length);  // arry lenght proparty use inthis code 
+
+
+
+// problem 08
+
+  let aGe = 16; 
+
+if (aGe >= 18) {
+    console.log("You are an adult");
+
+} else {
+    console.log("You are a minor");
+}
+
