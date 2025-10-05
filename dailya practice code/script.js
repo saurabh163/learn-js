@@ -134,3 +134,12 @@ if (aGe >= 18) {
     console.log("You are a minor");
 }
 
+
+// problem 09
+
+let number = [1, 2, 3, 4, 5];
+
+for (let i = 0; i < number.length; i++) {
+    console.log(nbrs[i]);
+}
+
