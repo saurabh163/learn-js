@@ -143,3 +143,15 @@ for (let i = 0; i < number.length; i++) {
     console.log(nbrs[i]);
 }
 
+
+
+// prolem 10
+
+let Numbr = 7;
+
+if (Numbr % 2 === 0) {  //// this line MODULOUS oprator use huwa hai 
+    console.log("True");
+
+} else {
+    console.log("False");
+}
