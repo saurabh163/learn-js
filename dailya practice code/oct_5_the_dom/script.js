@@ -21,3 +21,13 @@ document.getElementById("alertBtn").addEventListener("click", function() {
 
   alert("Hello guy's Welcome to DOM practice....");
 });
+
+
+// input box text show
+
+document.getElementById("showBtn").addEventListener("click", function() {
+
+  const name = document.getElementById("nameInput").value;  //
+
+  document.getElementById("displayText").innerText = "Hello I'm DEV. SAURABH...!";
+});
