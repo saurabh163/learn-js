@@ -52,3 +52,13 @@ img.addEventListener("mouseover", function() {
 img.addEventListener("mouseout", function() {
   img.src = "myprofile.jpg";
 });
+
+
+
+// change pargraph
+
+document.getElementById("addBtn").addEventListener("click", function() {
+  const para = document.createElement("p");
+  para.innerText = "my gf is ur crush ....😂😂😂😂";
+  document.getElementById("container").appendChild(para);
+});
