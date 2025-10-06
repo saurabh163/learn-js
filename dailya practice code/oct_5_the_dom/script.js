@@ -95,3 +95,18 @@ document.getElementById("addBtn").addEventListener("click", function() {
     document.getElementById("fruitList").appendChild(li);
   }
 });
+
+
+/// random emoji  
+
+const emojiDisplay = document.getElementById("emojiDisplay");
+
+emojiBtn.addEventListener("click", function() {
+  const emojis = ["😀","😂","😍","😎","🤩"];
+  const randomIndex = Math.floor(Math.random() * emojis.length);
+  
+  emojiDisplay.innerText = emojis[randomIndex];
+
+  const randomSize = Math.floor(Math.random() * 50) + 50;   // Font size random change krne ke liy
+  emojiDisplay.style.fontSize = randomSize + "px";
+});
