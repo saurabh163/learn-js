@@ -35,9 +35,9 @@ document.getElementById("showBtn").addEventListener("click", function() {
 
 // dubbel click 
 
-document.getElementById("text").addEventListener("dblclick", function() {
+document.getElementById("texts").addEventListener("dblclick", function() {
 
-  document.getElementById("text").style.color = "red";
+  document.getElementById("texts").style.color = "red";
 });
 
 
@@ -61,4 +61,20 @@ document.getElementById("addBtn").addEventListener("click", function() {
   const para = document.createElement("p");
   para.innerText = "my gf is ur crush ....😂😂😂😂";
   document.getElementById("container").appendChild(para);
+});
+
+
+// font size increase decrease
+
+const text = document.getElementById("text");
+let fontSize = 16;
+
+document.getElementById("increase").addEventListener("click", function() {
+  fontSize += 2;
+  text.style.fontSize = fontSize + "px";
+});
+
+document.getElementById("decrease").addEventListener("click", function() {
+  fontSize -= 2;
+  text.style.fontSize = fontSize + "px";
 });
