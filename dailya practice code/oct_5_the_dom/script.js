@@ -11,7 +11,7 @@ document.getElementById("changeBtn").addEventListener("click", function() {
 
 document.getElementById("bgBtn").addEventListener("click", function() {
 
-  document.body.style.backgroundColor = "lightpink";  /// first i click a boton  after chnge the color bg
+  document.body.style.backgroundColor = "gray";  /// first i click a boton  after chnge the color bg
 });
 
 
@@ -36,6 +36,19 @@ document.getElementById("showBtn").addEventListener("click", function() {
 // dubbel click 
 
 document.getElementById("text").addEventListener("dblclick", function() {
-  
+
   document.getElementById("text").style.color = "red";
+});
+
+
+// change img
+
+const img = document.getElementById("myImg");
+
+img.addEventListener("mouseover", function() {
+  img.src = "mygf.jpg";
+});
+
+img.addEventListener("mouseout", function() {
+  img.src = "myprofile.jpg";
 });
