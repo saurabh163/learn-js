@@ -57,7 +57,7 @@ img.addEventListener("mouseout", function() {
 
 // change pargraph
 
-document.getElementById("addBtn").addEventListener("click", function() {
+document.getElementById("addBtns").addEventListener("click", function() {
   const para = document.createElement("p");
   para.innerText = "my gf is ur crush ....😂😂😂😂";
   document.getElementById("container").appendChild(para);
@@ -77,4 +77,21 @@ document.getElementById("increase").addEventListener("click", function() {
 document.getElementById("decrease").addEventListener("click", function() {
   fontSize -= 2;
   text.style.fontSize = fontSize + "px";
+});
+
+
+
+// add more fruit
+
+document.getElementById("addBtn").addEventListener("click", function() {
+
+  const fruitName = prompt("Enter fruit name:");
+
+  if (fruitName) {
+    const li = document.createElement("li");
+
+    li.innerText = fruitName;
+
+    document.getElementById("fruitList").appendChild(li);
+  }
 });
