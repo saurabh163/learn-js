@@ -31,3 +31,11 @@ document.getElementById("showBtn").addEventListener("click", function() {
 
   document.getElementById("displayText").innerText = "Hello I'm DEV. SAURABH...!";
 });
+
+
+// dubbel click 
+
+document.getElementById("text").addEventListener("dblclick", function() {
+  
+  document.getElementById("text").style.color = "red";
+});
