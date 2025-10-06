@@ -155,3 +155,18 @@ if (Numbr % 2 === 0) {  //// this line MODULOUS oprator use huwa hai
 } else {
     console.log("False");
 }
+
+
+// problem 11
+
+let numbers = [4, 7, 10, 13, 16];
+
+for (let i = 0; i < numbers.length; i++) {
+
+    if (numbers[i] % 2 === 0) {           // modulous oprator use in code 
+        console.log("Number " + numbers[i] + " is Even");
+
+    } else {
+        console.log("Number " + numbers[i] + " is Odd");
+    }
+}
