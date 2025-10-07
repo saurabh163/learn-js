@@ -124,3 +124,12 @@ dblBtn.addEventListener("dblclick", function() {
   
   document.body.style.backgroundColor = randomColor;
 });
+
+// keybord booton 
+
+const keyDisplay = document.getElementById("keyDisplay");
+
+document.addEventListener("keydown", function(event) {
+  keyDisplay.innerText = "You pressed: " + event.key;
+  
+});
