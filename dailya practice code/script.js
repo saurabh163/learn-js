@@ -170,3 +170,25 @@ for (let i = 0; i < numbers.length; i++) {
         console.log("Number " + numbers[i] + " is Odd");
     }
 }
+
+
+
+// problem 12
+
+let colour = 500;
+
+if (colour >= 60) {
+    console.log("Grade A");
+
+} else if (colour >= 75) {
+    console.log("Grade B");
+
+} else if (colour >= 50) {
+    console.log("Grade C");
+
+} else if (colour >= 33) {
+    console.log("Grade D");
+
+} else {
+    console.log("Fail");
+}
