@@ -205,7 +205,7 @@ for (let i = 0; i < nums.length; i++) {
 
     if (nums[i] % 2 === 0) {
         evenNumbers.push(nums[i]); // .push new element add krne ke liye use hota hai 
-        
+
 
     } else {
         oddNumbers.push(nums[i]);
@@ -214,3 +214,20 @@ for (let i = 0; i < nums.length; i++) {
 
 console.log("Even numbers:", evenNumbers);
 console.log("Odd numbers:", oddNumbers);
+
+
+
+///  problem 14
+
+let Number = [12, 45, 67, 23, 89, 5, 34];
+
+let largest = Number[0];  // assume first element is the large number
+
+for (let i = 1; i < Number.length; i++) {  /// i use a Comparison operator 
+
+    if (Number[i] > largest) {
+        largest = Number[i];
+    }
+}
+
+console.log("Largest number is:", largest);
