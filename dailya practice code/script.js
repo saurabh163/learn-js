@@ -231,3 +231,15 @@ for (let i = 1; i < Number.length; i++) {  /// i use a Comparison operator
 }
 
 console.log("Largest number is:", largest);
+
+
+/// problem 15
+
+let N = 12;
+
+if (N % 4 === 0) {
+    console.log("Even Number");
+    
+} else {
+    console.log("Odd Number");
+}

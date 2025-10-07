@@ -110,3 +110,17 @@ emojiBtn.addEventListener("click", function() {
   const randomSize = Math.floor(Math.random() * 50) + 50;   // Font size random change krne ke liy
   emojiDisplay.style.fontSize = randomSize + "px";
 });
+
+
+/// dubbel click bg colour change 
+
+
+const dblBtn = document.getElementById("dblBtn");
+
+dblBtn.addEventListener("dblclick", function() {
+  const colors = ["pink", "lightgreen", "orange", "purple", "yellow"];
+
+  const randomColor = colors[Math.floor(Math.random() * colors.length)];
+  
+  document.body.style.backgroundColor = randomColor;
+});
