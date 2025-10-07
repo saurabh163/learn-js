@@ -258,3 +258,12 @@ for (let i = 1; i <= 5; i++) {
     }
 }
 
+
+
+// problem 17
+
+let Num = 18;
+
+for (let i = 1; i <= 10; i++) {
+    console.log(Num + " x " + i + " = " + (Num * i));
+}
