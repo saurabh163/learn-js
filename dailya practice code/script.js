@@ -192,3 +192,25 @@ if (colour >= 60) {
 } else {
     console.log("Fail");
 }
+
+
+//problem 13
+
+let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+let evenNumbers = [];
+let oddNumbers = [];
+
+for (let i = 0; i < nums.length; i++) {
+
+    if (nums[i] % 2 === 0) {
+        evenNumbers.push(nums[i]); // .push new element add krne ke liye use hota hai 
+        
+
+    } else {
+        oddNumbers.push(nums[i]);
+    }
+}
+
+console.log("Even numbers:", evenNumbers);
+console.log("Odd numbers:", oddNumbers);
