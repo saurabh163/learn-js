@@ -320,3 +320,16 @@ let frUits = ["Apple", "mosambi", "Mango"];
 for (let i = 0; i < frUits.length; i++) {
     console.log(frUits[i]);
 }
+
+
+// problem 21
+
+
+for(let i = 1; i < numbers.length; i++){
+    if(numbers[i] > max){
+        max = numbers[i];
+    }
+    if(numbers[i] < min){
+        min = numbers[i];
+    }
+}
