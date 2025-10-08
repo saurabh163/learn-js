@@ -309,3 +309,14 @@ if (umar <= 0) {
 } else {
     console.log("Senior Citizen Ticket 50 Rs");
 }
+
+
+
+// problem  20
+
+
+let frUits = ["Apple", "mosambi", "Mango"];
+
+for (let i = 0; i < frUits.length; i++) {
+    console.log(frUits[i]);
+}
