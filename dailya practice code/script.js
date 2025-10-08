@@ -267,3 +267,22 @@ let Num = 18;
 for (let i = 1; i <= 10; i++) {
     console.log(Num + " x " + i + " = " + (Num * i));
 }
+
+
+///  problem 18
+
+let Numbers = [45, 12, 78, 34, 89, 23, 67];
+
+let max = Numbers[0]; // Assume first element is biggest
+let min = Numbers[0]; // Assume first element is smallest
+
+for(let i = 1; i < Numbers.length; i++){
+    if(Numbers[i] > max){
+        max = Numbers[i];
+    }
+    if(Numbers[i] < min){
+        min = Numbers[i];
+    }
+}
+
+alert("Maximum number is: " + max + "\nMinimum number is: " + min);
