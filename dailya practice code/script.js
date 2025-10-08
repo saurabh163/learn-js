@@ -362,3 +362,17 @@ let numBer = [1, 2, 3, 4, 5];
 for (let i = 0; i < numBer.length; i++) {
     console.log(nbrs[i]);
 }
+
+
+//   // problem 22
+
+
+for (let i = 1; i <= 5; i++) {
+
+    if (i % 2 === 0) {
+        console.log(i + " is Even");
+
+    } else {
+        console.log(i + " is Odd");
+    }
+}
