@@ -286,3 +286,26 @@ for(let i = 1; i < Numbers.length; i++){
 }
 
 alert("Maximum number is: " + max + "\nMinimum number is: " + min);
+
+
+
+//  problem 19
+
+
+let umar = 25;
+
+if (umar <= 0) {
+    console.log("Invalid Age");
+
+} else if (umar < 7) {
+    console.log("Free Ticket");
+
+} else if (umar >= 7 && umar < 18) {
+    console.log("Child Ticket 42 Rs");
+
+} else if (umar >= 20 && umar < 60) {
+    console.log("Adult Ticket 245 Rs");
+
+} else {
+    console.log("Senior Citizen Ticket 50 Rs");
+}
