@@ -333,3 +333,22 @@ for(let i = 1; i < numbers.length; i++){
         min = numbers[i];
     }
 }
+
+
+
+// // problem 22
+
+let markS = 85; 
+
+ if (markS >= 90) 
+    console.log(" Grade A ");
+
+  else if (markS >= 75) 
+    console.log(" Grade B ");
+
+  else if (markS >= 50) 
+    console.log(" Grade C ");
+
+  else 
+    console.log(" Fail ");
+ 
