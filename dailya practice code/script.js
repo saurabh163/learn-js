@@ -352,3 +352,13 @@ let markS = 85;
   else 
     console.log(" Fail ");
  
+
+
+
+  // problem 22
+
+let numBer = [1, 2, 3, 4, 5];
+
+for (let i = 0; i < numBer.length; i++) {
+    console.log(nbrs[i]);
+}
