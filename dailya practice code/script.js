@@ -393,7 +393,17 @@ let hasID = true;
 
 if (AGe >= 18 && hasID === true) {
     console.log("You can enter");
-    
+
 } else {
     console.log("Access Denied");
+}
+
+
+
+// problem 25
+
+let NUm = 7;
+
+for (let i = 1; i <= 10; i++) {
+    console.log(NUm + " x " + i + " = " + (NUm * i));
 }
