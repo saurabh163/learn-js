@@ -407,3 +407,21 @@ let NUm = 7;
 for (let i = 1; i <= 10; i++) {
     console.log(NUm + " x " + i + " = " + (NUm * i));
 }
+
+
+
+// problem 26
+
+let a = 39;
+let b = 25;
+let operation = "add";
+
+if (operation === "add") {
+    console.log("Result is:", a + b);
+
+} else if (operation === "sub") {
+    console.log("Result is:", a - b);
+    
+} else {
+    console.log("Invalid Operation");
+}
