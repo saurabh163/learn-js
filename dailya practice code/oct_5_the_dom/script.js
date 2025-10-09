@@ -133,3 +133,8 @@ document.addEventListener("keydown", function(event) {
   keyDisplay.innerText = "You pressed: " + event.key;
   
 });
+
+// bg color chnge 
+
+document.body.style.backgroundColor = "yellow";
+
