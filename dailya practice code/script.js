@@ -376,3 +376,11 @@ for (let i = 1; i <= 5; i++) {
         console.log(i + " is Odd");
     }
 }
+
+
+//   // problem 23
+
+let Colors = ["Red", "Green", "Blue"];
+
+console.log("Array length is:", Colors.length);
+
