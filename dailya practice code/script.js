@@ -421,7 +421,16 @@ if (operation === "add") {
 
 } else if (operation === "sub") {
     console.log("Result is:", a - b);
-    
+
 } else {
     console.log("Invalid Operation");
+}
+
+
+// problem 27 
+
+let fruits = ["Apple", "Banana", "Mango"];
+
+for (let i = 0; i < fruits.length; i++) {
+    console.log(fruits[i]);
 }
