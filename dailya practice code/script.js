@@ -384,3 +384,16 @@ let Colors = ["Red", "Green", "Blue"];
 
 console.log("Array length is:", Colors.length);
 
+
+
+// problem 24
+
+let AGe = 16;
+let hasID = true;
+
+if (AGe >= 18 && hasID === true) {
+    console.log("You can enter");
+    
+} else {
+    console.log("Access Denied");
+}
