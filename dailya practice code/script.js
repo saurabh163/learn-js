@@ -434,3 +434,12 @@ let fruits = ["Apple", "Banana", "Mango"];
 for (let i = 0; i < fruits.length; i++) {
     console.log(fruits[i]);
 }
+
+
+// problem 28
+
+let cities = ["Delhi", "Mumbai", "Kolkata", "Nagpur"];
+
+for (let i = 0; i < cities.length; i++) {
+    console.log(cities[i]);
+}
