@@ -503,3 +503,22 @@ console.log("First student:", students[0]);
 
 console.log("Last student:", students[students.length - 1]); 
 
+
+
+
+// problem 33  
+
+
+function sumArray(numbers) {
+    let sum = 0; //this variable store a sum of number 
+
+    for (let i = 0; i < numbers.length; i++) {
+        sum += numbers[i]; // they sad all number add in sum
+    }
+
+    return sum; // they sad final result ki sum
+}
+
+// use function call
+let Result = sumArray([6, 5, 7, 8]);
+console.log("Sum of array is:", result);
