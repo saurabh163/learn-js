@@ -443,3 +443,25 @@ let cities = ["Delhi", "Mumbai", "Kolkata", "Nagpur"];
 for (let i = 0; i < cities.length; i++) {
     console.log(cities[i]);
 }
+
+
+// problem 29
+
+let Nums = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+let EvenNumbers = [];
+let OddNumbers = [];
+
+for (let i = 0; i < Nums.length; i++) {
+    
+    if (Nums[i] % 2 === 0) {
+        EvenNumbers.push(Nums[i]); 
+
+
+    } else {
+        OddNumbers.push(Nums[i]);
+    }
+}
+
+console.log("Even numbers:", EvenNumbers);
+console.log("Odd numbers:", OddNumbers);
