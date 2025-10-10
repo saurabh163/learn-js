@@ -453,7 +453,7 @@ let EvenNumbers = [];
 let OddNumbers = [];
 
 for (let i = 0; i < Nums.length; i++) {
-    
+
     if (Nums[i] % 2 === 0) {
         EvenNumbers.push(Nums[i]); 
 
@@ -465,3 +465,18 @@ for (let i = 0; i < Nums.length; i++) {
 
 console.log("Even numbers:", EvenNumbers);
 console.log("Odd numbers:", OddNumbers);
+
+
+// problem 30 
+
+let value = -5;
+
+if (value > 0) {
+    console.log("value is Positive");
+
+} else if (value < 0) {
+    console.log("value is Negative");
+
+} else {
+    console.log("value is Zero");
+}
