@@ -491,3 +491,15 @@ console.log("First fruit:", fruits[0]);
 console.log("Last fruit:", fruits[fruits.length - 1]); 
 
 console.log("Middle fruit:", fruits[2]);
+
+
+// problem 32 /// arry lenghth problem 
+
+let students = ["Aman", "Saurabh", "Riya", "Kunal", "Priya"];
+
+console.log("Total students:", students.length); 
+
+console.log("First student:", students[0]); 
+
+console.log("Last student:", students[students.length - 1]); 
+
