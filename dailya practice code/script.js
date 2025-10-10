@@ -469,7 +469,7 @@ console.log("Odd numbers:", OddNumbers);
 
 // problem 30 
 
-let value = -5;
+let value = -9;
 
 if (value > 0) {
     console.log("value is Positive");
@@ -480,3 +480,14 @@ if (value > 0) {
 } else {
     console.log("value is Zero");
 }
+
+
+// problem 31  ////  this problem a arry length proprty 
+
+let Fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes"];
+
+console.log("First fruit:", fruits[0]); 
+
+console.log("Last fruit:", fruits[fruits.length - 1]); 
+
+console.log("Middle fruit:", fruits[2]);
