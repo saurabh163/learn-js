@@ -522,3 +522,17 @@ function sumArray(numbers) {
 // use function call
 let Result = sumArray([6, 5, 7, 8]);
 console.log("Sum of array is:", result);
+
+
+
+// problem 34  //// print even number with use of arry 
+
+
+let NuMber = [5, 12, 7, 8, 3, 10]; 
+
+for (let i = 0; i < Number.length; i++) { // how many total munber in the arr 
+
+    if (Number[i] % 2 === 0) { // check number with modulas oprator
+        console.log("Even number:", Number[i]);
+    }
+}
