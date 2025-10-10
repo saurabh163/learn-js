@@ -536,3 +536,15 @@ for (let i = 0; i < Number.length; i++) { // how many total munber in the arr
         console.log("Even number:", Number[i]);
     }
 }
+
+
+
+// problem 35 ../// arry proble 
+
+
+
+let NumberS = [10, 20, 30, 40, 50]; // i create a one arry
+
+for (let i = 0; i < NumberS.length; i++) { //  how many numberin arry (total lenghth )
+    console.log("Numbers at index", i, "is:", NumberS[i]);
+}
