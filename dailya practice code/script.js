@@ -627,3 +627,18 @@ for (let i = 0; i < Mark.length; i++) {
     }
 }
 
+
+
+
+// problem 39 //arr se even number print problem
+
+let numbeRs = [1,2,3,4,5,6,7,8,9,10];
+
+console.log("Even numbers in the array:");
+
+for (let i = 0; i < numbeRs.length; i++) {
+
+    if (numbeRs[i] % 2 === 0) {   
+        console.log(numbeRs[i]);
+    }
+}
