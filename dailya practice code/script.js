@@ -573,3 +573,41 @@ if (Score > 100 || Score < 0) {
 } else {
     console.log("Fail");
 }
+
+
+
+
+// problem 37 //  // student grde pass chek problem if else
+
+
+
+
+  let StudentName = "Ravi";
+  let score = 89;   
+
+     console.log("Student: " + StudentName);
+     console.log("score: " + score);
+
+if (score >= 90) {
+     console.log("Grade: A");
+     console.log("Status: Pass");
+
+} else if (score >= 75) {
+     console.log("Grade: B");
+     console.log("Status: Pass");
+
+} else if (score >= 50) {
+     console.log("Grade: C");
+     console.log("Status: Pass");
+
+} else if (score >= 35) {
+     console.log("Grade: D");
+     console.log("Status: Pass");
+
+} else {
+     console.log("Grade: None");
+     console.log("Status: Fail");
+}
+
+
+
