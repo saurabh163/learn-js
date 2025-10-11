@@ -679,3 +679,18 @@ for (let i = 1; i <= 10; i++) {
         console.log(i + " is not divisible by 3");
     }
 }
+
+
+
+
+// problem 42 //// forloop even odd number 
+
+for (let i = 1; i <= 5; i++) {
+
+    if (i % 2 === 0) {
+        console.log(i + " is Even");
+
+    } else {
+        console.log(i + " is Odd");
+    }
+}
