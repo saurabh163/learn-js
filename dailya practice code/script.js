@@ -548,3 +548,28 @@ let NumberS = [10, 20, 30, 40, 50]; // i create a one arry
 for (let i = 0; i < NumberS.length; i++) { //  how many numberin arry (total lenghth )
     console.log("Numbers at index", i, "is:", NumberS[i]);
 }
+
+
+
+// problem 36  ///// if else 
+
+let Score = parseInt(prompt("Enter your marks"));
+
+if (Score > 100 || Score < 0) {
+    console.log("Invalid Marks");
+
+  } else if (Score >= 90) {
+    console.log("Grade A");
+
+} else if (Score >= 75) {
+    console.log("Grade B");
+
+} else if (Score >= 50) {
+    console.log("Grade C");
+
+} else if (Score >= 33) {
+    console.log("Grade D");
+
+} else {
+    console.log("Fail");
+}
