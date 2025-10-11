@@ -611,3 +611,19 @@ if (score >= 90) {
 
 
 
+// problem 38 .// 
+
+let Mark = [50, 75, 45, 87, 45];
+
+console.log("Students Result:");
+
+for (let i = 0; i < Mark.length; i++) {
+
+    if (Mark[i] >= 40) {
+        console.log("Student " + (i+1) + ": Pass (Mark = " + Mark[i] + ")");
+        
+    } else {
+        console.log("Student " + (i+1) + ": Fail (Mark = " + Mark[i] + ")");
+    }
+}
+
