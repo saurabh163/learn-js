@@ -642,3 +642,27 @@ for (let i = 0; i < numbeRs.length; i++) {
         console.log(numbeRs[i]);
     }
 }
+
+
+
+
+// problem 40 // // student exam de sakte ki nai chek with if-else
+
+  let Studentname = "Ravi";
+let AgE = 17;
+let MArk = 55;
+
+console.log("Checking eligibility for: " + Studentname);
+
+if (AgE >= 18 && MArk >= 50) {
+    console.log("Student can appear for exam");
+
+} else if (AgE < 18 && MArk >= 50) {
+    console.log("Student too young");
+
+} else if (AgE >= 18 && MArk < 50) {
+    console.log("Student failed");
+
+} else {
+    console.log("Student too young and failed");
+}
