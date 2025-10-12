@@ -712,3 +712,16 @@ for (let i = 0; i < arr.length; i++) {
         console.log(arr[i] + " is Zero");
     }
 }
+
+
+
+/// problem 42 ///// factrial of a number with for loop 
+
+let n = 5;
+let fact = 1;
+
+for (let i = 1; i <= n; i++) {
+  fact *= i; // iska mtlb ki aane wali value ko multiply i se krna //
+}
+
+console.log("Factorial =", fact);
