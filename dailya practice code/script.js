@@ -749,3 +749,12 @@ for (let i = 1; i <= 20; i++) {
     console.log(i);
   }
 }
+
+
+
+// problem 45 //// // problem 6 for loop reverse number print
+
+for (let i = 10; i >= 1; i--) {
+  console.log(i);
+}
+
