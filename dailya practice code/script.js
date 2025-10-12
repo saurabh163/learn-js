@@ -725,3 +725,16 @@ for (let i = 1; i <= n; i++) {
 }
 
 console.log("Factorial =", fact);
+
+
+
+
+// problem 43 ///for loop sum problem 
+
+let Sum = 0;
+
+for (let i = 1; i <= 10; i++) {
+  Sum += i; // iska mtlb ki sum hone ke bad sum + i ki value //
+}
+
+console.log("Sum =", sum);
