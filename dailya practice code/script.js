@@ -752,7 +752,7 @@ for (let i = 1; i <= 20; i++) {
 
 
 
-// problem 45 //// // problem 6 for loop reverse number print
+// problem 45 ////  for loop reverse number print
 
 for (let i = 10; i >= 1; i--) {
   console.log(i);
@@ -766,4 +766,18 @@ for (let i = 10; i >= 1; i--) {
 
 for (let i = 1; i <= 10; i++) {
   console.log("5 x " + i + " = " + (5 * i));
+}
+
+
+
+
+/// problem 47 /// // problem 3 bada number print krna 
+
+let x = 15;
+let y = 25;
+
+ if (x > y) {
+    console.log("Largest =", x);
+} else {
+    console.log("Largest =", y);
 }
