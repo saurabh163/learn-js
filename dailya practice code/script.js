@@ -758,3 +758,12 @@ for (let i = 10; i >= 1; i--) {
   console.log(i);
 }
 
+
+
+
+
+// problem 46 //// multiplya krke tabel print krna 
+
+for (let i = 1; i <= 10; i++) {
+  console.log("5 x " + i + " = " + (5 * i));
+}
