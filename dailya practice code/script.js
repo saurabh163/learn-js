@@ -816,3 +816,18 @@ function bigMultiplicationTable(num) {
 }
 
 bigMultiplicationTable(7);
+
+
+
+
+
+
+/// problem 50   /// // revers counting 
+
+function reverscounting(){
+  for(let i = 10; i >= 1; i--){
+    console.log(i);
+  }
+}
+
+reverscounting();
