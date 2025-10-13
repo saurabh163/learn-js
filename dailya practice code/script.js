@@ -771,7 +771,7 @@ for (let i = 1; i <= 10; i++) {
 
 
 
-/// problem 47 /// // problem 3 bada number print krna 
+/// problem 47 ///   bada number print krna 
 
 let x = 15;
 let y = 25;
@@ -781,3 +781,24 @@ let y = 25;
 } else {
     console.log("Largest =", y);
 }
+
+
+
+
+/// problem 48 /// function arry 
+
+function findLargestNumber(numbers) {
+    let largest = numbers[0];
+
+    for (let i = 1; i < numbers.length; i++) {
+      
+        if (numbers[i] > largest) {
+            largest = numbers[i];
+        }
+    }
+
+    console.log("The largest number is: " + largest);
+}
+
+// Test arr function 
+findLargestNumber([12, 45, 7, 89, 23, 56]);
