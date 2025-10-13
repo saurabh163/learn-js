@@ -857,3 +857,19 @@ function countEvenOdd(N) {
 
 countEvenOdd(10); 
 
+
+
+/// problem 51 ////  some of number loop problem
+
+
+function sumOfNumbers(N) {
+    let sum = 0;
+
+    for (let i = 1; i <= N; i++) {
+        sum += i;  
+    }
+
+    console.log("Sum of numbers from 1 to " + N + " = " + sum);
+}
+
+sumOfNumbers(10);  
