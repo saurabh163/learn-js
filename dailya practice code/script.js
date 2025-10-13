@@ -884,3 +884,22 @@ sumOfNumbers(10);
 }
 
 multiplicationTable(5); 
+
+
+
+
+// problem 53 ///voting elagibility problem
+
+function checkVoting(ages) {
+
+    for (let i = 0; i < ages.length; i++) {
+        let age = ages[i];
+
+        if (age >= 18) {
+            console.log("Person " + (i+1) + ": Eligible to Vote");
+
+        } else {
+            console.log("Person " + (i+1) + ": Not Eligible");
+        }
+    }
+}
