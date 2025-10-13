@@ -926,3 +926,27 @@ function checkNumbers(nums) {
 }
 
 checkNumbers([5, -2, 0, 10, -7]);
+
+
+
+
+//  problem 55 /////grocery bill
+
+function generateBill(items) {
+    let grandTotal = 0;
+
+    console.log("------ Grocery Bill ------");
+
+    for (let i = 0; i < items.length; i++) {
+        let item = items[i];
+        let total = item.quantity * item.price;
+        grandTotal += total;
+
+        console.log(
+            item.name + " - " + item.quantity + " × ₹" + item.price + " = ₹" + total
+        );
+    }
+
+    console.log("--------------------------");
+    console.log("Grand Total = ₹" + grandTotal);
+}
