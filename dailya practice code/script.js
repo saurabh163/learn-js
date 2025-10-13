@@ -802,3 +802,17 @@ function findLargestNumber(numbers) {
 
 // Test arr function 
 findLargestNumber([12, 45, 7, 89, 23, 56]);
+
+
+
+
+/// problem 49 ///big maltipication problem
+
+function bigMultiplicationTable(num) {
+  
+    for (let i = 1; i <= 20; i++) {
+        console.log(num + " × " + i + " = " + (num * i));
+    }
+}
+
+bigMultiplicationTable(7);
