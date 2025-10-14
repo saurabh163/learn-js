@@ -1126,3 +1126,18 @@ function checkGrade(marks) {
 // test the function work//
 let studentMarks = 65; 
 checkGrade(studentMarks);
+
+
+// problem  62 // / new age chek problem try 
+
+let AGE = prompt("18");
+
+
+AGE = Number(AGE);
+
+if (AGE >= 18) {
+    console.log("You can drive.");
+
+} else {
+    console.log("You cannot drive yet.");
+}
