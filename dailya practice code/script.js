@@ -990,3 +990,37 @@ function calculateScore(answers) {
 let studentAnswers = ["correct", "wrong", "correct", "wrong", "wrong", "correct"];
 calculateScore(studentAnswers);
 
+
+
+
+
+
+// problem 57  ///// labry books short problrm 
+
+
+function borrowBooks(userLimit, booksRequested) {
+    let borrowed = 0;
+
+    for (let i = 0; i < booksRequested.length; i++) {
+        let req = booksRequested[i];
+
+        if (req <= 0) {
+            console.log("Request " + (i+1) + ": Invalid request");
+
+        } else if (borrowed + req > userLimit) {
+            console.log("Request " + (i+1) + ": Request denied (limit exceeded)");
+            
+        } else {
+            borrowed += req;
+            console.log("Request " + (i+1) + ": Borrowed " + req + " books ");
+            console.log("Now total borrowed: " + borrowed);
+        }
+
+        console.log("--------------------------------");
+    }
+}
+
+// Test function 
+let limit = 5; 
+let requests = [2, 0, 3, 1, 2];
+borrowBooks(limit, requests);
