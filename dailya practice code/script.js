@@ -1053,3 +1053,21 @@ function checkResults(marksList) {
 // Test  function
 let studentsMarks = [95, 82, 67, 45, 100];
 checkResults(studentsMarks);
+
+
+
+/// problem 59// for loop chek even-odd num
+
+let NUM = 5;  
+
+for (let i = 1; i <= 10; i++) {
+    let result = NUM * i;
+
+    if (result % 2 === 0) {
+        console.log(result + " is EVEN");
+
+    } else {
+        console.log(result + " is ODD");
+    }
+}
+ 
