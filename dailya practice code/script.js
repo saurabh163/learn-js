@@ -1218,7 +1218,7 @@ if (nuMBRrs.length > 2) {
 
 
 
-/// problem  68 /// true false with 
+/// problem  68 /// true false with Variable
 
 
 let aGE = 20;
@@ -1228,4 +1228,14 @@ if (isAdult) {
     console.log("You are an adult");
 } else {
     console.log("You are a minor");
+}
+
+// problem 69 /// Positive - Negative
+
+let NuM = 8;
+
+if (NuM > 0) {
+    console.log("Positive number");
+} else {
+    console.log("Negative number");
 }
