@@ -1141,3 +1141,28 @@ if (AGE >= 18) {
 } else {
     console.log("You cannot drive yet.");
 }
+
+
+
+/// problem  63 // fuction number tyape check
+
+function checkNumber(num) {
+
+  num = Number(num);
+
+  if (num > 0) {
+    console.log("Number is positive");
+
+  } else if (num < 0) {
+    console.log("Number is negative");
+
+  } else {
+    console.log("Number is zero");
+  }
+}
+
+let userInput = prompt("Enter a number:");
+
+// Call function with input//
+checkNumber(userInput);
+
