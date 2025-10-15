@@ -1197,3 +1197,9 @@ if (isRaining) {
 } else {
     console.log("Enjoy the sunshine");
 }
+
+
+// problem 66 ///  simple fruit arry
+
+let fruiTS = ["Apple", "Banana", "Mango"];
+console.log(fruiTS);
