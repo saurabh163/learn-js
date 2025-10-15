@@ -1203,3 +1203,15 @@ if (isRaining) {
 
 let fruiTS = ["Apple", "Banana", "Mango"];
 console.log(fruiTS);
+
+
+
+// problem 67 // arr and if else mix 
+
+let nuMBRrs = [5, 10, 15];
+
+if (nuMBRrs.length > 2) {
+    console.log("Array has more than 2 elements");
+} else {
+    console.log("Array has 2 or fewer elements");
+}
