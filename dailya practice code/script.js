@@ -1215,3 +1215,17 @@ if (nuMBRrs.length > 2) {
 } else {
     console.log("Array has 2 or fewer elements");
 }
+
+
+
+/// problem  68 /// true false with 
+
+
+let aGE = 20;
+let isAdult = aGE >= 18;
+
+if (isAdult) {
+    console.log("You are an adult");
+} else {
+    console.log("You are a minor");
+}
