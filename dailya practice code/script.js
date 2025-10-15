@@ -1186,3 +1186,14 @@ function checkDriving(age) {
 
 checkDriving(16); 
 checkDriving(20); 
+
+
+// problem 65 // truthy false 
+
+let isRaining = false;
+
+if (isRaining) {
+    console.log("Take an umbrella");
+} else {
+    console.log("Enjoy the sunshine");
+}
