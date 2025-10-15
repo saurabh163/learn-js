@@ -1166,3 +1166,23 @@ let userInput = prompt("Enter a number:");
 // Call function with input//
 checkNumber(userInput);
 
+
+
+
+/// problem 64 ///  / start function 
+
+
+function checkDriving(age) {
+
+  if (age < 18) {
+    console.log("You cannot drive");
+  
+  } else {
+
+    console.log("You can drive");
+  }
+}
+// call function for testing 
+
+checkDriving(16); 
+checkDriving(20); 
