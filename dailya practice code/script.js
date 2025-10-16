@@ -1267,3 +1267,17 @@ else {
   console.log("No Discount, Please Pay Full Amount");
   console.log("Total Bill:");
 }
+
+
+
+
+// problem 72 // 
+ 
+let userName = "Saurabh";
+let userAge = 20;
+
+if (userAge >= 18) {
+    console.log(userName + " is an Adult");
+} else {
+    console.log(userName + " is a Minor");
+}
