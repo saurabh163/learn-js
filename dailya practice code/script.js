@@ -1309,3 +1309,19 @@ if (isHomeworkDone) {
     console.log("Please complete your homework soon.");
 }
 
+
+
+
+// // // problem 75 ////
+
+
+let cssProgress = 15;
+
+if (cssProgress >= 80) {
+    console.log("You're doing excellent in js!");
+} else if (cssProgress >= 50) {
+    console.log("Good progress! Keep practicing.");
+} else {
+    console.log("You need to practice more jS.");
+}
+
