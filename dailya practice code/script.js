@@ -1281,3 +1281,16 @@ if (userAge >= 18) {
 } else {
     console.log(userName + " is a Minor");
 }
+
+
+
+// problem 73//
+
+
+let favFood = "gup-chup";
+
+if (favFood === "Salad" || favFood === "Fruits") {
+    console.log("You chose a healthy food!");
+} else {
+    console.log("Try eating something healthier next time!");
+}
