@@ -1315,13 +1315,22 @@ if (isHomeworkDone) {
 // // // problem 75 ////
 
 
-let cssProgress = 15;
+let jsProgress = 15;
 
-if (cssProgress >= 80) {
+if (jsProgress >= 80) {
     console.log("You're doing excellent in js!");
-} else if (cssProgress >= 50) {
+} else if (jsProgress >= 50) {
     console.log("Good progress! Keep practicing.");
 } else {
     console.log("You need to practice more jS.");
 }
 
+
+
+// problem 76 //
+
+
+let subjectList = ["HTML", "CSS", "JS"];
+
+console.log("Subjects you study are:");
+console.log(subjectList);
