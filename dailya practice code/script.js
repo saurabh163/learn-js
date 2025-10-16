@@ -1334,3 +1334,21 @@ let subjectList = ["HTML", "CSS", "JS"];
 
 console.log("Subjects you study are:");
 console.log(subjectList);
+
+
+
+
+
+/// problem 77 ///
+
+
+
+
+let favCity = "hinganghat";
+let citie = ["hinganghat", "Mumbai", "Pune", "Nagpur"];
+
+if (citie.includes(favCity)) {
+    console.log(favCity + " is in the list!");
+} else {
+    console.log(favCity + " is not in the list!");
+}
