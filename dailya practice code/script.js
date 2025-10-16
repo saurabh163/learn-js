@@ -1294,3 +1294,18 @@ if (favFood === "Salad" || favFood === "Fruits") {
 } else {
     console.log("Try eating something healthier next time!");
 }
+
+
+
+// // problem 74 ////
+
+
+
+let isHomeworkDone = false;
+
+if (isHomeworkDone) {
+    console.log("Great job! You finished your homework.");
+} else {
+    console.log("Please complete your homework soon.");
+}
+
