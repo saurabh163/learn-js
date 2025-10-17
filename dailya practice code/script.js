@@ -1430,3 +1430,15 @@ if (temperature > 30) {
 } else {
     console.log("The weather is cool");
 }
+
+
+
+// problem 82 // 
+
+let isLoggedIn = false;
+
+if (isLoggedIn) {
+    console.log("Welcome back, user!");
+} else {
+    console.log("Please log in to continue.");
+}
