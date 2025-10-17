@@ -1455,3 +1455,16 @@ if (numbeR.includes(findNum)) {
 } else {
     console.log(findNum + " is not in the array!");
 }
+
+
+// problem 84 // 
+
+
+let subjects = ["Math", "Science", "English"];
+let favSubject = "Science";
+
+if (subjects.includes(favSubject)) {
+    console.log(favSubject + " is one of your favorite subjects!");
+} else {
+    console.log(favSubject + " is not in your subject list.");
+}
