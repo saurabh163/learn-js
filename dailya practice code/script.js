@@ -1442,3 +1442,16 @@ if (isLoggedIn) {
 } else {
     console.log("Please log in to continue.");
 }
+
+
+
+// problem 83 // 
+
+let numbeR = [2, 4, 6, 8, 10];
+let findNum = 6;
+
+if (numbeR.includes(findNum)) {
+    console.log(findNum + " is found in the array!");
+} else {
+    console.log(findNum + " is not in the array!");
+}
