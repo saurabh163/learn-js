@@ -1400,3 +1400,21 @@ else {
   console.log("Delivery charge 50rs add hoga");
   console.log("Total Bill");
 }
+
+
+
+/// problem 80 ///
+
+let marks = 85; 
+
+ if (marks >= 90) 
+    console.log(" Grade A ");
+
+  else if (marks >= 75) 
+    console.log(" Grade B ");
+
+  else if (marks >= 50) 
+    console.log(" Grade C ");
+
+  else 
+    console.log(" Fail ");
