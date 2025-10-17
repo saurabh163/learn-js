@@ -1418,3 +1418,15 @@ let marks = 85;
 
   else 
     console.log(" Fail ");
+
+
+
+  // problem 81 ///
+
+  let temperature = 32;
+
+if (temperature > 30) {
+    console.log("It's a hot day");
+} else {
+    console.log("The weather is cool");
+}
