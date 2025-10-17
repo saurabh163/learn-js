@@ -1377,3 +1377,26 @@ else {
   console.log("Pass");
 }
 
+
+
+/// problem 79 ///
+
+
+let itemPrice = 1200;  
+let quantity = 5;       
+
+let total = itemPrice * quantity;  
+
+if (itemPrice <= 0 || quantity <= 0) {
+  console.log("Invalid Input");
+} 
+
+else if (total > 5000) {
+  console.log("You got Free Delivery");
+  console.log("Total Bill");
+} 
+
+else {
+  console.log("Delivery charge 50rs add hoga");
+  console.log("Total Bill");
+}
