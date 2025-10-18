@@ -187,3 +187,30 @@ BTn.addEventListener("click", function() {
   count++;
   counter.innerText = count;
 });
+
+
+
+
+// boder hover
+
+const Img = document.getElementById("myImage");
+
+Img.addEventListener("mouseover", function() {
+  Img.style.border = "5px solid red";
+});
+
+Img.addEventListener("mouseout", function() {
+  Img.style.border = "none";
+});
+
+
+/// bg Color by Keypress
+
+
+const colors = ["pink", "lightgreen", "lightblue", "orange", "yellow"];
+
+document.addEventListener("keydown", function() {
+  const randomColor = colors[Math.floor(Math.random() * colors.length)];
+  document.body.style.backgroundColor = randomColor;
+});
+
