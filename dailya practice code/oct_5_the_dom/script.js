@@ -138,3 +138,21 @@ document.addEventListener("keydown", function(event) {
 
 document.body.style.backgroundColor = "yellow";
 
+
+
+/// hide text 
+
+
+const Text = document.getElementById("info");
+const btn = document.getElementById("toggleBtn");
+
+btn.addEventListener("click", function() {
+  
+  if (Text.style.display === "none") {
+    Text.style.display = "block";
+    btn.innerText = "Hide Text";
+  } else {
+    Text.style.display = "none";
+    btn.innerText = "Show Text";
+  }
+});
