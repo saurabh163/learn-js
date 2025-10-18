@@ -147,7 +147,7 @@ const Text = document.getElementById("info");
 const btn = document.getElementById("toggleBtn");
 
 btn.addEventListener("click", function() {
-  
+
   if (Text.style.display === "none") {
     Text.style.display = "block";
     btn.innerText = "Hide Text";
@@ -155,4 +155,35 @@ btn.addEventListener("click", function() {
     Text.style.display = "none";
     btn.innerText = "Show Text";
   }
+});
+
+
+
+
+// count down increse
+
+
+const teXt = document.getElementById("info");
+const Btn = document.getElementById("toggleBtn");
+
+Btn.addEventListener("click", function() {
+  if (teXt.style.display === "none") {
+    teXt.style.display = "block";
+    btn.innerteXt = "Hide Text";
+  } else {
+    teXt.style.display = "none";
+    Btn.teXt = "Show Text";
+  }
+});
+
+
+// count dail
+
+let count = 0;
+const counter = document.getElementById("count");
+const BTn = document.getElementById("countBtn");
+
+BTn.addEventListener("click", function() {
+  count++;
+  counter.innerText = count;
 });
