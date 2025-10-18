@@ -214,3 +214,17 @@ document.addEventListener("keydown", function() {
   document.body.style.backgroundColor = randomColor;
 });
 
+
+
+// text hower ///
+
+
+const tEXt = document.getElementById("hoverText");
+
+tEXt.addEventListener("mouseover", function() {
+  tEXt.style.backgroundColor = "yellow";
+});
+
+tEXt.addEventListener("mouseout", function() {
+  tEXt.style.backgroundColor = "transparent";
+});
