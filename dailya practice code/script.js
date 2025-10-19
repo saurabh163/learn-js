@@ -1504,3 +1504,18 @@ let numB = 7;
 for (let i = 1; i <= 10; i++) {
     console.log(numB + " x " + i + " = " + (numB * i));
 }
+
+
+
+// problem 88 //
+
+
+for (let i = 1; i <= 5; i++) {
+
+    if (i % 2 === 0) {
+        console.log(i + " is Even");
+
+    } else {
+        console.log(i + " is Odd");
+    }
+}
