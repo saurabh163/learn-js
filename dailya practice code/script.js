@@ -1472,3 +1472,10 @@ if (subjects.includes(favSubject)) {
 
 
 // problem 85 //
+
+
+let nUM = 20;
+
+for (let i = 1; i <= 10; i++) {
+    console.log(nUM + " x " + i + " = " + (nUM * i));
+}
