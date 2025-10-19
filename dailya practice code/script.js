@@ -1519,3 +1519,15 @@ for (let i = 1; i <= 5; i++) {
         console.log(i + " is Odd");
     }
 }
+
+
+
+// problem 89 //
+
+
+let frUiTs = ["Apple", "Bnana", "Mango"];
+
+for (let i = 0; i < frUiTs.length; i++) {
+    console.log(frUiTs[i]);
+}
+
