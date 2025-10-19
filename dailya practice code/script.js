@@ -1493,3 +1493,14 @@ if (nUMs % 2 === 0) {
 } else {
     console.log("Odd Number");
 }
+
+
+
+// problem 87 //
+
+
+let numB = 7;
+
+for (let i = 1; i <= 10; i++) {
+    console.log(numB + " x " + i + " = " + (numB * i));
+}
