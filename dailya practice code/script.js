@@ -1531,3 +1531,14 @@ for (let i = 0; i < frUiTs.length; i++) {
     console.log(frUiTs[i]);
 }
 
+
+
+// problem 90 // 
+
+
+let numbRs = [10, 20, 30, 40, 50];
+
+for (let i = numbRs.length - 1; i >= 0; i--) {
+    console.log(numbRs[i]);
+}
+
