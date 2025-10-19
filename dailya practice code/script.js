@@ -1479,3 +1479,17 @@ let nUM = 20;
 for (let i = 1; i <= 10; i++) {
     console.log(nUM + " x " + i + " = " + (nUM * i));
 }
+
+
+
+
+// problem 86  // 
+
+let nUMs = 9;
+
+if (nUMs % 2 === 0) {
+    console.log("Even Number");
+    
+} else {
+    console.log("Odd Number");
+}
