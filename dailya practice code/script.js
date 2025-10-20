@@ -1664,3 +1664,12 @@ if (Operation === "add") {
 } else {
     console.log("Invalid Operation");
 }
+
+
+// problem 97  // 
+
+let nuMB = 9;
+
+for (let i = 1; i <= 10; i++) {
+    console.log(numB + " x " + i + " = " + (numB * i));
+}
