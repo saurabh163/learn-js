@@ -1604,3 +1604,28 @@ let marKS = 85;
   else 
     console.log(" Fail ");
  
+
+
+
+  // problem 94 //
+
+
+  let usernaMe = "saurabh";   
+
+let passwOrd = "@niks";    
+
+if (!username || !password) {
+  console.log("Please enter username and password!");
+} 
+
+else if (username === "saurabh" && password === "niks") {
+  console.log("Login Successful ");
+} 
+
+else if (username !== "saurabh") {
+  console.log("Invalid Username ");
+} 
+
+else if (password !== "niks") {
+  console.log("Invalid Password ");
+}
