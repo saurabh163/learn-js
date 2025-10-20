@@ -1542,3 +1542,25 @@ for (let i = numbRs.length - 1; i >= 0; i--) {
     console.log(numbRs[i]);
 }
 
+
+
+
+// problem 91 //
+
+let NUMS = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+let evennumbers = [];
+let odDNumbers = [];
+
+for (let i = 0; i < NUMS.length; i++) {
+
+    if (NUMS[i] % 2 === 0) {
+        evennumbers.push(NUMS[i]); // pushh for new element add krne ke liye 
+
+    } else {
+        odDNumbers.push(NUMS[i]);
+    }
+}
+
+console.log("Even numbers:", evennumbers);
+console.log("Odd numbers:", odDNumbers);
