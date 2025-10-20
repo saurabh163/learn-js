@@ -1629,3 +1629,20 @@ else if (username !== "saurabh") {
 else if (password !== "niks") {
   console.log("Invalid Password ");
 }
+
+
+
+
+// problem 95 //
+
+
+for (let i = 1; i <= 5; i++) {
+
+    if (i % 2 === 0) {
+        console.log(i + " is Even");
+
+    } else {
+        console.log(i + " is Odd");
+    }
+}
+
