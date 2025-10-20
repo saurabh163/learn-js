@@ -1585,3 +1585,22 @@ if (agE <= 0) {
 } else {
     console.log("Senior Citizen Ticket 70 Rs");
 }
+
+
+// problem 93 // 
+
+
+let marKS = 85; 
+
+ if (marKS >= 90) 
+    console.log(" Grade A ");
+
+  else if (marKS >= 75) 
+    console.log(" Grade B ");
+
+  else if (marKS >= 50) 
+    console.log(" Grade C ");
+
+  else 
+    console.log(" Fail ");
+ 
