@@ -1646,3 +1646,21 @@ for (let i = 1; i <= 5; i++) {
     }
 }
 
+
+
+// problem 96 //
+
+
+let W = 20;
+let G = 10;
+let Operation = "add";
+
+if (Operation === "add") {
+    console.log("Result is:", W + G);  
+
+} else if (Operation === "sub") {
+    console.log("Result is:", W - G);
+
+} else {
+    console.log("Invalid Operation");
+}
