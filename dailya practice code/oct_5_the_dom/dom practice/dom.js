@@ -19,6 +19,19 @@ Btn.addEventListener("click", function() {
 
 
 
+// randombg color chnge  //
+
+const colors = ["red", "green", "blue", "orange", "purple", "pink", "yellow"];
+const BtN = document.getElementById("BgBtn");
+
+BtN.addEventListener("click", function() {
+  const randomColor = colors[Math.floor(Math.random() * colors.length)];
+  document.body.style.backgroundColor = randomColor;
+});
+
+
+
+
 // show result //
 
 const result = document.getElementById("sum");
