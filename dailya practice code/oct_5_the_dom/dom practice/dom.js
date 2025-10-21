@@ -39,3 +39,14 @@ const output = document.getElementById("output");
 btN.addEventListener("click", function() {
   output.innerText = " hello guys " + nameInput.value + " 👋";
 });
+
+
+
+// font text color change //
+
+const text = document.getElementById("text");
+const bTN = document.getElementById("colorBtn");
+
+bTN.addEventListener("click", function() {
+  text.style.color = "blue";
+});
