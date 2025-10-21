@@ -27,3 +27,15 @@ const bTn = document.getElementById("addBtn");
 bTn.addEventListener("click", function() {
   result.innerText = "Result: " + (5 + 10);
 });
+
+
+
+// input box text show //
+
+const nameInput = document.getElementById("name");
+const btN = document.getElementById("showName");
+const output = document.getElementById("output");
+
+btN.addEventListener("click", function() {
+  output.innerText = " hello guys " + nameInput.value + " 👋";
+});
