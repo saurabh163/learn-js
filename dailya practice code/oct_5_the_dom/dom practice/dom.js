@@ -7,3 +7,13 @@ const btn = document.getElementById("showBtn");
 btn.addEventListener("click", function() {
   msg.style.display = "block";
 });
+
+
+// bg colour change //
+
+const Btn = document.getElementById("bgBtn");
+
+Btn.addEventListener("click", function() {
+  document.body.style.backgroundColor = "pink";
+});
+
