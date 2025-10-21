@@ -50,3 +50,15 @@ const bTN = document.getElementById("colorBtn");
 bTN.addEventListener("click", function() {
   text.style.color = "blue";
 });
+
+
+// incrice numbe //
+
+let count = 0;
+const BTN = document.getElementById("incBtn");
+const display = document.getElementById("count");
+
+BTN.addEventListener("click", function() {
+  count++;
+  display.innerText = count;
+});
