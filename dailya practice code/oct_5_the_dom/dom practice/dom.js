@@ -17,3 +17,13 @@ Btn.addEventListener("click", function() {
   document.body.style.backgroundColor = "pink";
 });
 
+
+
+// show result //
+
+const result = document.getElementById("sum");
+const bTn = document.getElementById("addBtn");
+
+bTn.addEventListener("click", function() {
+  result.innerText = "Result: " + (5 + 10);
+});
