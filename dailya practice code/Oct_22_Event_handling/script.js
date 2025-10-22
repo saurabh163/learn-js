@@ -54,3 +54,15 @@ const showKey = document.getElementById("showKey");
 document.addEventListener("keydown", function(event) {
   showKey.textContent = "You pressed: " + event.key;
 });
+
+
+
+
+// form submit alert //
+
+const form = document.getElementById("myForm");
+
+form.addEventListener("submit", function(event) {
+  event.preventDefault(); // form ke reload hone se rokta hai
+  alert("Form Submitted Successfully! ✅");
+});
