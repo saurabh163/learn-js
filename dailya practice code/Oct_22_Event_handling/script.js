@@ -44,3 +44,13 @@ const show = document.getElementById("show");
 input.addEventListener("input", function() {
   show.textContent = input.value;
 });
+
+
+
+/// press keybord key //
+
+const showKey = document.getElementById("showKey");
+
+document.addEventListener("keydown", function(event) {
+  showKey.textContent = "You pressed: " + event.key;
+});
