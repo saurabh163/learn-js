@@ -33,3 +33,14 @@ text.addEventListener("mouseover", function() {
 text.addEventListener("mouseout", function() {
   text.textContent = "Hover on me";
 });
+
+
+
+// input text show /
+
+const input = document.getElementById("name");
+const show = document.getElementById("show");
+
+input.addEventListener("input", function() {
+  show.textContent = input.value;
+});
