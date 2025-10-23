@@ -122,3 +122,13 @@ document.addEventListener("mousemove", function(event) {
   coords.textContent = `X: ${event.clientX}, Y: ${event.clientY}`;
 });
 
+
+
+// character count//
+
+const Input = document.getElementById("textInput");
+const Count = document.getElementById("count");
+
+Input.addEventListener("input", function() {
+  Count.textContent = "Characters: " + input.value.length;
+});
