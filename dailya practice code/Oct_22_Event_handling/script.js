@@ -100,3 +100,17 @@ bTn.addEventListener("click", function() {
   }
 });
 
+
+
+// counter //
+
+const btN = document.getElementById("countBtn");
+const count = document.getElementById("count");
+let num = 0;
+
+btN.addEventListener("click", function() {
+  num++;
+  count.textContent = num;
+});
+
+
