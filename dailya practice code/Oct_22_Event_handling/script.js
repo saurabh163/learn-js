@@ -80,3 +80,23 @@ checkbox.addEventListener("change", function() {
     Msg.textContent = "";
   }
 });
+
+
+// paragraph hide show //
+
+const bTn = document.getElementById("toggleBtn");
+const tExt = document.getElementById("text");
+let visible = true;
+
+bTn.addEventListener("click", function() {
+  if (visible) {
+    tExt.style.display = "none";
+    bTn.textContent = "Show Text";
+    visible = false;
+  } else {
+    tExt.style.display = "block";
+    bTn.textContent = "Hide Text";
+    visible = true;
+  }
+});
+
