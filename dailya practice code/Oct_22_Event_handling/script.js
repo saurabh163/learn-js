@@ -114,3 +114,11 @@ btN.addEventListener("click", function() {
 });
 
 
+//coordinates show karna //
+
+const coords = document.getElementById("coords");
+
+document.addEventListener("mousemove", function(event) {
+  coords.textContent = `X: ${event.clientX}, Y: ${event.clientY}`;
+});
+
