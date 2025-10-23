@@ -132,3 +132,16 @@ const Count = document.getElementById("count");
 Input.addEventListener("input", function() {
   Count.textContent = "Characters: " + input.value.length;
 });
+
+
+
+// color badlna //
+
+const BTN = document.getElementById("colorBtn");
+const teXt = document.getElementById("text");
+
+BTN.addEventListener("click", function() {
+  const colors = ["red", "blue", "green", "purple", "orange"];
+  const random = Math.floor(Math.random() * colors.length);
+  teXt.style.color = colors[random];
+});
