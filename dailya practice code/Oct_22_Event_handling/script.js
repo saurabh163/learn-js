@@ -66,3 +66,17 @@ form.addEventListener("submit", function(event) {
   event.preventDefault(); // form ke reload hone se rokta hai
   alert("Form Submitted Successfully! ✅");
 });
+
+
+/// massge show //
+
+const checkbox = document.getElementById("agree");
+const Msg = document.getElementById("msg");
+
+checkbox.addEventListener("change", function() {
+  if (checkbox.checked) {
+    Msg.textContent = "✅ You agreed!";
+  } else {
+    Msg.textContent = "";
+  }
+});
