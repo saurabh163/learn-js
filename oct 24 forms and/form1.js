@@ -87,3 +87,20 @@ function checkSelect() {
   document.getElementById("msg").innerText = "City selected: " + city;
   return true;
 }
+
+
+
+// All fields required check //
+
+function allCheck() {
+  let n = document.getElementById("name").value;
+  let e = document.getElementById("email").value;
+  let p = document.getElementById("password").value;
+
+  if (n === "" || e === "" || p === "") {
+    document.getElementById("alert").innerText = "All fields are required!";
+    return false;
+  }
+  document.getElementById("alert").innerText = "Form submitted successfully!";
+  return true;
+}

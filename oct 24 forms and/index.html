@@ -8,6 +8,8 @@
   <form onsubmit="return checkEmpty()">
     <input type="text" id="username" placeholder="Enter your name">
     <button type="submit">Submit</button>
+      <p id="message"></p>
+
   </form>
 
   <form onsubmit="return validateEmail()">
@@ -51,8 +53,15 @@
 
 </form>
 
+<form onsubmit="return allCheck()">
+  <input type="text" id="name" placeholder="Name"><br>
+  <input type="text" id="email" placeholder="Email"><br>
+  <input type="password" id="password" placeholder="Password"><br>
+  <button type="submit">Submit</button>
+  <p id="alert"></p>
+</form>
 
-  <p id="message"></p>
+
   <script src="form1.js"></script>
 </body>
 </html>
