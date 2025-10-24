@@ -12,3 +12,20 @@ function checkEmpty() {
     return true;
   }
 }
+
+
+
+
+// check mail 
+
+
+function validateEmail() {
+  let email = document.getElementById("email").value;
+  if (!email.includes("@")) {
+    document.getElementById("msg").innerText = "Invalid email!";
+    return false;
+  } else {
+    document.getElementById("msg").innerText = "Valid email!";
+    return true;
+  }
+}
