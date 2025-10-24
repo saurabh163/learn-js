@@ -90,7 +90,7 @@ function checkSelect() {
 
 
 
-// All fields required check //
+// fields required check //
 
 function allCheck() {
   let n = document.getElementById("name").value;
