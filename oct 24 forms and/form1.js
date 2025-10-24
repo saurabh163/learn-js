@@ -59,3 +59,17 @@ function checkMatch() {
   document.getElementById("msg").innerText = "Passwords match ";
   return true;
 }
+
+
+// number input validation //
+
+function checkNumber() {
+  let value = document.getElementById("num").value;
+  if (isNaN(value)) {
+    document.getElementById("result").innerText = "Only numbers allowed ";
+    return false;
+  } else {
+    document.getElementById("result").innerText = "Valid number ";
+    return true;
+  }
+}
