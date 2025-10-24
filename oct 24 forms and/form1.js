@@ -29,3 +29,17 @@ function validateEmail() {
     return true;
   }
 }
+
+
+
+//  password length //
+ 
+function validatePassword() {
+  let password = document.getElementById("pass").value;
+  if (password.length < 6) {
+    document.getElementById("output").innerText = "Password too short!";
+    return false;
+  }
+  document.getElementById("output").innerText = "Password accepted!";
+  return true;
+}
