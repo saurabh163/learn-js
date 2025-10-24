@@ -73,3 +73,17 @@ function checkNumber() {
     return true;
   }
 }
+
+
+
+/// select option validation //
+
+function checkSelect() {
+  let city = document.getElementById("city").value;
+  if (city === "") {
+    document.getElementById("msg").innerText = "Please select a city";
+    return false;
+  }
+  document.getElementById("msg").innerText = "City selected: " + city;
+  return true;
+}
