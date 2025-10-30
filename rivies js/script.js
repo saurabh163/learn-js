@@ -408,4 +408,16 @@ function checkPass() {
     document.getElementById("msg").innerText = "Looks strong!";
     btn.disabled = false;
   }
-}
+}   
+
+// problem 31 //
+
+let buntyMaths = 80;
+let buntyScience = 70;
+let buntyEnglish = 90;
+
+let totalMarks = buntyMaths + buntyScience + buntyEnglish;
+let averageMarks = totalMarks / 3;
+
+console.log("Bunty’s total marks:", totalMarks);
+console.log("Bunty’s average marks:", averageMarks);
