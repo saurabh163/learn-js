@@ -61,6 +61,99 @@
   <p id="alert"></p>
 </form>
 
+<form onsubmit="return checkAge()">
+  <input type="number" id="age" placeholder="Enter your age">
+  <button type="submit">Submit</button>
+  <p id="msg"></p>
+</form>
+
+<form onsubmit="return checkEmailEnd()">
+  <input type="text" id="email" placeholder="Enter email">
+  <button>Submit</button>
+  <p id="msg"></p>
+</form>
+
+<form onsubmit="return noSpace()">
+  <input type="text" id="user" placeholder="Enter username">
+  <button>Submit</button>
+  <p id="show"></p>
+</form>
+
+<form onsubmit="return checkPhone()">
+  <input type="text" id="phone" placeholder="Enter phone number">
+  <button>Submit</button>
+  <p id="msg"></p>
+</form>
+
+<form onsubmit="return checkBox()">
+  <input type="checkbox" id="agree"> I agree<br>
+  <button>Submit</button>
+  <p id="msg"></p>
+</form>
+
+<input type="password" id="pass" placeholder="Enter password">
+<button onclick="togglePass()">Show/Hide</button>
+
+
+<textarea id="text" onkeyup="countChar()" placeholder="Type here..."></textarea>
+<p id="count">0 characters</p>
+
+<form onsubmit="return checkName()">
+  <input type="text" id="name" placeholder="Enter your name">
+  <button>Submit</button>
+  <p id="msg"></p>
+</form>
+
+<form onsubmit="return checkEmail()">
+  <input type="text" id="email" placeholder="Enter email">
+  <button>Submit</button>
+  <p id="output"></p>
+</form>
+
+
+<form onsubmit="return showAlert()">
+  <input type="text" id="user" placeholder="Enter username"><br>
+  <input type="password" id="pass" placeholder="Enter password"><br>
+  <button>Submit</button>
+</form>
+
+
+<input type="password" id="pass" placeholder="Enter password" onkeyup="checkPass()">
+<button id="btn" disabled>Submit</button>
+<p id="msg"></p>
+
+
+<textarea id="bio" onkeyup="limitText()" placeholder="Write about yourself"></textarea>
+<p id="msg"></p>
+
+
+<form>
+  <input type="radio" name="gender" value="Male" onclick="showGender(this)"> Male
+  <input type="radio" name="gender" value="Female" onclick="showGender(this)"> Female
+  <p id="msg"></p>
+</form>
+
+
+<form onsubmit="return highlightEmpty()">
+  <input type="text" id="n" placeholder="Name"><br>
+  <input type="text" id="e" placeholder="Email"><br>
+  <button>Submit</button>
+</form>
+
+<input type="text" id="name" placeholder="Enter name" onkeyup="formatName()">
+<p id="result"></p>
+
+
+<form onsubmit="return confirmEmail()">
+  <input type="text" id="email1" placeholder="Enter email"><br>
+  <input type="text" id="email2" placeholder="Confirm email"><br>
+  <button>Submit</button>
+  <p id="msg"></p>
+</form>
+
+
+
+
 
   <script src="form1.js"></script>
 </body>
