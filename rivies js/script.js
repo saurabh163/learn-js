@@ -352,3 +352,18 @@ function togglePass() {
     p.type = "password";
   }
 }
+
+
+
+// problem 28  //
+
+function showAlert() {
+  let u = document.getElementById("user").value;
+  let p = document.getElementById("pass").value;
+  if (u === "" || p === "") {
+    alert("Please fill all fields!");
+    return false;
+  }
+  alert("Form submitted successfully!");
+  return true;
+}
