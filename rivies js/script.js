@@ -393,3 +393,19 @@ function highlightEmpty() {
 
   return valid;
 }
+
+
+// problem 30 //
+
+function checkPass() {
+  let pass = document.getElementById("pass").value;
+  let btn = document.getElementById("btn");
+
+  if (pass.length < 6) {
+    document.getElementById("msg").innerText = "Too short!";
+    btn.disabled = true;
+  } else {
+    document.getElementById("msg").innerText = "Looks strong!";
+    btn.disabled = false;
+  }
+}
