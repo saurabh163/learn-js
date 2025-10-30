@@ -339,3 +339,16 @@ function allCheck() {
   document.getElementById("alert").innerText = "Form submitted successfully!";
   return true;
 }
+
+
+
+// problem 27  //
+
+function togglePass() {
+  let p = document.getElementById("pass");
+  if (p.type === "password") {
+    p.type = "text";
+  } else {
+    p.type = "password";
+  }
+}
