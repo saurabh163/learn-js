@@ -293,3 +293,17 @@ let numbRs = [10, 20, 30, 40, 50];
 for (let i = numbRs.length - 1; i >= 0; i--) {
     console.log(numbRs[i]);
 }
+
+
+// problem 24 //
+
+function validateEmail() {
+  let email = document.getElementById("email").value;
+  if (!email.includes("@")) {
+    document.getElementById("msg").innerText = "Invalid email!";
+    return false;
+  } else {
+    document.getElementById("msg").innerText = "Valid email!";
+    return true;
+  }
+}
