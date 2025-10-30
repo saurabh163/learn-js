@@ -307,3 +307,20 @@ function validateEmail() {
     return true;
   }
 }
+
+
+
+// problem 25 //
+
+function checkMatch() {
+  let p1 = document.getElementById("p1").value;
+  let p2 = document.getElementById("p2").value;
+
+  if (p1 !== p2) {
+    document.getElementById("msg").innerText = "Passwords do not match";
+    return false;
+  }
+  document.getElementById("msg").innerText = "Passwords match ";
+  return true;
+}
+
