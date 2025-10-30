@@ -441,3 +441,14 @@ let gardenWidth = 8;
 let area = gardenLength * gardenWidth;
 
 console.log("Chintu’s garden area is:", area, "square meters 🌿");
+
+
+
+// problem 34 //
+
+let babluName = "bablu the great";
+let upperName = babluName.toUpperCase();
+let shortName = babluName.slice(0, 5);
+
+console.log("Full name in caps:", upperName);
+console.log("Short name:", shortName);
