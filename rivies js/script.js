@@ -421,3 +421,12 @@ let averageMarks = totalMarks / 3;
 
 console.log("Bunty’s total marks:", totalMarks);
 console.log("Bunty’s average marks:", averageMarks);
+
+
+// problem 32 //
+
+let pinkyName = "Pinky";
+let pinkyAge = 17;
+
+let sentence = pinkyName + " is " + pinkyAge + " years old.";
+console.log(sentence);
