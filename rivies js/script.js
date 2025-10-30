@@ -430,3 +430,14 @@ let pinkyAge = 17;
 
 let sentence = pinkyName + " is " + pinkyAge + " years old.";
 console.log(sentence);
+
+
+
+// problem 33 ///
+
+let gardenLength = 12;
+let gardenWidth = 8;
+
+let area = gardenLength * gardenWidth;
+
+console.log("Chintu’s garden area is:", area, "square meters 🌿");
