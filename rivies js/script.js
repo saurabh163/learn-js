@@ -980,3 +980,12 @@ for (let num = 1; num <= 10; num++) {
     console.log("Even number:", num);
   }
 }
+
+
+
+/// problem 82 ///
+
+let userMinutes = 5;
+let seconds = userMinutes * 60;
+
+console.log(userMinutes, "minutes =", seconds, "seconds");
