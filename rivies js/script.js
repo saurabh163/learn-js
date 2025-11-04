@@ -938,3 +938,17 @@ if (userPassword.length >= 8) {
 } else {
   console.log("Weak Password ");
 }
+
+
+
+/// problem 78 //
+
+let finalMarks = 82;
+
+if (finalMarks >= 75) {
+  console.log("Distinction ");
+} else if (finalMarks >= 40) {
+  console.log("Pass ");
+} else {
+  console.log("Fail ");
+}
