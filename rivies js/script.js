@@ -926,3 +926,15 @@ if (roomTemp > 30) {
 } else {
   console.log("Nice and Cool ");
 }
+
+
+
+// problem 77 //
+
+let userPassword = "hello123";
+
+if (userPassword.length >= 8) {
+  console.log("Strong Password ");
+} else {
+  console.log("Weak Password ");
+}
