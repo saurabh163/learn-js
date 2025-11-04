@@ -997,7 +997,18 @@ console.log(userMinutes, "minutes =", seconds, "seconds");
 let enteredName = "";
 
 if (enteredName === "") {
-  console.log("Name is empty ⚠️");
+  console.log("Name is empty ");
 } else {
   console.log("Welcome,", enteredName);
+}
+
+
+// problem 84 //
+
+let bonusPoints = 40;
+
+if (bonusPoints % 10 === 0) {
+  console.log("Perfect multiple of 10 ");
+} else {
+  console.log("Not a multiple ");
 }
