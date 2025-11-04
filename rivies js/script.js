@@ -952,3 +952,13 @@ if (finalMarks >= 75) {
 } else {
   console.log("Fail ");
 }
+
+
+
+/// problem 79 //
+
+let rectLength = 10;
+let rectWidth = 6;
+let rectArea = rectLength * rectWidth;
+
+console.log("Rectangle Area:", rectArea);
