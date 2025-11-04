@@ -962,3 +962,11 @@ let rectWidth = 6;
 let rectArea = rectLength * rectWidth;
 
 console.log("Rectangle Area:", rectArea);
+
+
+// problem 80 //
+
+let fruitsList = ["Apple", "Banana", "Mango", "Orange"];
+let lastFruit = fruitsList[fruitsList.length - 1];
+
+console.log("Last fruit is:", lastFruit);
