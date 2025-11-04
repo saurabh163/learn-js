@@ -452,3 +452,477 @@ let shortName = babluName.slice(0, 5);
 
 console.log("Full name in caps:", upperName);
 console.log("Short name:", shortName);
+
+
+
+// problem 35 //
+
+function checkEvenOdd(num) {
+  if (num % 2 === 0) {
+    console.log(num + " is Even");
+  } else {
+    console.log(num + " is Odd");
+  }
+}
+checkEvenOdd(9);
+
+
+
+// // problem 36 //
+
+let numbers = [5, 8, 2, 9, 1];
+let largest = numbers[0];
+
+for (let i = 1; i < numbers.length; i++) {
+  if (numbers[i] > largest) {
+    largest = numbers[i];
+  }
+}
+console.log("Largest:", largest);
+
+
+// problem 37 //
+
+let str = "hello";
+let reversed = str.split("").reverse().join("");
+console.log(reversed);
+
+
+
+// problem 38 //
+
+
+let arr = [true, false, true, true, false];
+let count = 0;
+
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i] === true) {
+    count++;
+  }
+}
+console.log("True count:", count);
+
+
+
+// problem 39 //
+
+
+let person = { name: "Amit", age: 22, city: "Pune" };
+
+for (let key in person) {
+  console.log(key + ":", person[key]);
+}
+
+
+// problem 40 //
+
+let word = "computer";
+if (word.includes("a")) {
+  console.log("Contains 'a'");
+} else {
+  console.log("Does not contain 'a'");
+}
+
+
+
+// problem 41 //
+
+function getEven(arr) {
+  return arr.filter(num => num % 2 === 0);
+}
+console.log(getEven([2, 5, 7, 8, 10]));
+
+
+
+// problem 42 //
+
+let user = { name: "Ravi", age: 21 };
+user.country = "India";
+console.log(user);
+
+
+
+// problem 43 //
+
+let Str = "javascript";
+let Count = 0;
+let vowels = "aeiou";
+
+for (let i = 0; i < Str.length; i++) {
+  if (vowels.includes(Str[i])) {
+    Count++;
+  }
+}
+console.log("Vowels:", Count);
+
+
+// problem 44 //
+
+let Arr = [2, 4, 6, 8];
+let sum = 0;
+
+for (let i = 0; i < Arr.length; i++) {
+  sum += Arr[i];
+}
+console.log("Sum:", sum);
+
+
+
+// problem 45 //
+
+let Numbers = [2, 4, 6];
+let doubled = numbers.map(num => num * 2);
+console.log(doubled);
+
+
+
+// problem 46 //
+
+let users = [
+  { name: "Amit", age: 20 },
+  { name: "Ravi", age: 25 },
+  { name: "Sita", age: 19 }
+];
+
+let names = users.map(user => user.name);
+console.log(names);
+
+
+
+// problem 47 //
+
+let aRr = [3, 6, 9, 12, 15];
+let even = aRr.filter(num => num % 2 === 0);
+console.log(even);
+
+// problem 48 /
+
+let MArks = [80, 75, 90, 85];
+let tOtal = MArks.reduce((sum, val) => sum + val, 0);
+console.log("Total:", tOtal);
+
+
+
+// problem 49 //
+
+function squareArray(arr) {
+  return arr.map(num => num * num);
+}
+console.log(squareArray([2, 3, 4]));
+
+
+
+// problem 50 //
+
+let nums = [5, 10, 15, 20];
+let allPositive = nums.every(n => n > 0);
+console.log(allPositive);
+
+
+
+// problem 51 //
+
+let numS = [2, 5, 12, 8, 15];
+let first = numS.find(n => n > 10);
+console.log(first);
+
+
+
+// problem 52 //
+
+
+let A = [1, 2];
+let B = [3, 4];
+let result = a.concat(b);
+console.log(result);
+
+
+
+// problem 53 //
+
+let name = "javascript";
+console.log(name.toUpperCase());
+
+
+
+// problem 54 //
+
+let students = [
+  { name: "Amit", age: 20 },
+  { name: "Ravi", age: 25 },
+  { name: "Sita", age: 22 }
+];
+
+let toTal = students.reduce((sum, s) => sum + s.age, 0);
+let avg = toTal / students.length;
+console.log("Average age:", avg);
+
+
+
+// problem 55 //
+
+let checkNum = 0;
+
+if (checkNum > 0) {
+  console.log("Positive Number");
+} else if (checkNum < 0) {
+  console.log("Negative Number");
+} else {
+  console.log("Number is Zero");
+}
+
+
+// problem 56 //
+
+let movieTitle = "Avengers";
+console.log("Length of movie name:", movieTitle.length);
+
+
+// problem 57 //
+
+let fiveNums = [2, 4, 6, 8, 10];
+let totAl = 0;
+
+for (let i = 0; i < fiveNums.length; i++) {
+  totAl += fiveNums[i];
+}
+console.log("Total Sum:", totAl);
+
+
+// problem 58 //
+
+let friendList = ["Amit", "Ravi", "Anita", "Sita", "Arjun"];
+for (let i = 0; i < friendList.length; i++) {
+  if (friendList[i].startsWith("A")) {
+    console.log(friendList[i]);
+  }
+}
+
+
+
+// problem 59 //
+
+function findSquare(num) {
+  return num * num;
+}
+console.log(findSquare(6));
+
+
+
+// problem 60 //
+
+let luckyNumber = 15;
+if (luckyNumber % 3 === 0 && luckyNumber % 5 === 0) {
+  console.log("Divisible by both 3 and 5");
+} else {
+  console.log("Not divisible by both");
+}
+
+
+// problem 61 // 
+
+let colors = ["red", "green", "blue", "yellow"];
+for (let i = colors.length - 1; i >= 0; i--) {
+  console.log(colors[i]);
+}
+
+
+// problem 62 //
+
+let marksList = [45, 60, 22, 90, 55];
+let min = marksList[0];
+
+for (let i = 1; i < marksList.length; i++) {
+  if (marksList[i] < min) {
+    min = marksList[i];
+  }
+}
+console.log("Minimum marks:", min);
+
+
+// problem 63 //
+
+let quote = "Learning JavaScript is fun";
+if (quote.includes("JavaScript")) {
+  console.log("Word found!");
+} else {
+  console.log("Word not found!");
+}
+
+
+
+// problem 64  //
+
+let numArray = [1, 2, 3, 4, 5, 6];
+let evenCount = 0;
+let oddCount = 0;
+
+for (let i = 0; i < numArray.length; i++) {
+  if (numArray[i] % 2 === 0) {
+    evenCount++;
+  } else {
+    oddCount++;
+  }
+}
+console.log("Even:", evenCount, "Odd:", oddCount);
+
+
+
+
+/// problem 65 //
+
+function checkResult(marks) {
+  
+  if (marks <= 0) {
+    console.log("Invalid Marks");
+  } 
+
+  else if (marks < 35) {
+    console.log("Fail");
+  } 
+
+  else {
+    console.log("Pass");
+  }
+}
+
+checkResult(0);  
+checkResult(25); 
+checkResult(60);  
+
+
+
+/// problem 66 //
+
+function checkDriving(age) {
+
+  if (age < 18) {
+    console.log("You cannot drive");
+  
+  } else {
+
+    console.log("You can drive");
+  }
+}
+
+checkDriving(16); 
+checkDriving(20); 
+
+
+
+  /// problem 67 // 
+
+  let magicNum = 11;
+
+if (magicNum % 2 === 0) {
+  console.log(magicNum, "is Even ");
+} else {
+  console.log(magicNum, "is Odd ");
+}
+
+
+
+ // problem 68 //
+
+ let powerA = 55, powerB = 32;
+
+if (powerA > powerB) {
+  console.log(powerA, "is stronger ");
+} else {
+  console.log(powerB, "is stronger ");
+}
+
+
+// problem 69 //
+
+let citizenAge = 19;
+
+if (citizenAge >= 18) {
+  console.log(" Eligible for Voting");
+} else {
+  console.log(" Not Eligible");
+}
+
+
+
+// problem 70 //
+
+let hobbyLine = "I like to code every day";
+
+if (hobbyLine.includes("code")) {
+  console.log("Cool! You’re a coder ");
+} else {
+  console.log("No coding found ");
+}
+
+
+// problem 71 //
+
+let alpha = 14, beta = 22, gamma = 9;
+
+if (alpha > beta && alpha > gamma) {
+  console.log("Alpha is biggest ");
+} else if (beta > gamma) {
+  console.log("Beta is biggest ");
+} else {
+  console.log("Gamma is biggest ");
+}
+
+
+
+
+/// problem 72 //
+
+let tempValue = -3;
+
+if (tempValue > 0) {
+  console.log("Positive ");
+} else if (tempValue < 0) {
+  console.log("Negative ");
+} else {
+  console.log("Zero ");
+}
+
+
+
+ /// problem 73 //
+
+ let examMarks = 42;
+
+if (examMarks >= 40) {
+  console.log("Pass ");
+} else {
+  console.log("Fail ");
+}
+
+
+// probem 74 //
+
+for (let step = 1; step <= 5; step++) {
+  console.log("Step number:", step);
+}
+
+
+
+/// problem 75 //
+
+let pocketMoney = [50, 100, 75, 25];
+let totalCash = 0;
+
+for (let i = 0; i < pocketMoney.length; i++) {
+  totalCash += pocketMoney[i];
+}
+
+console.log("Total Pocket Money:", totalCash);
+
+
+
+// problem 76 //
+
+let roomTemp = 32;
+
+if (roomTemp > 30) {
+  console.log("Too Hot ");
+} else {
+  console.log("Nice and Cool ");
+}
