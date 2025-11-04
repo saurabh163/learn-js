@@ -1012,3 +1012,12 @@ if (bonusPoints % 10 === 0) {
 } else {
   console.log("Not a multiple ");
 }
+
+
+
+//  problem 85 //
+
+let smallNote = "JavaScript is easy";
+let charCount = smallNote.length;
+
+console.log("Total characters:", charCount);
