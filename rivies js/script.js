@@ -989,3 +989,15 @@ let userMinutes = 5;
 let seconds = userMinutes * 60;
 
 console.log(userMinutes, "minutes =", seconds, "seconds");
+
+
+
+/// problem 83 //
+
+let enteredName = "";
+
+if (enteredName === "") {
+  console.log("Name is empty ⚠️");
+} else {
+  console.log("Welcome,", enteredName);
+}
