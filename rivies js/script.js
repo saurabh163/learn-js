@@ -970,3 +970,13 @@ let fruitsList = ["Apple", "Banana", "Mango", "Orange"];
 let lastFruit = fruitsList[fruitsList.length - 1];
 
 console.log("Last fruit is:", lastFruit);
+
+
+
+// problem 81 //
+
+for (let num = 1; num <= 10; num++) {
+  if (num % 2 === 0) {
+    console.log("Even number:", num);
+  }
+}
