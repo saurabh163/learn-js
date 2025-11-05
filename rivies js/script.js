@@ -1070,7 +1070,16 @@ console.log("Average Marks:", avgMarks);
 let favMovies = ["KGF", "Pushpa", "Leo", "Dune", "Batman", "RRR"];
 
 if (favMovies.length > 5) {
-  console.log("Big movie list 🎬");
+  console.log("Big movie list ");
 } else {
-  console.log("Small movie list 🍿");
+  console.log("Small movie list ");
 }
+
+
+
+ // problem 90 /
+
+ let tempCelsius = 30;
+let tempFahrenheit = (tempCelsius * 9/5) + 32;
+
+console.log("Temperature in Fahrenheit:", tempFahrenheit);
