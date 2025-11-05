@@ -1042,3 +1042,14 @@ let tableNum = 5;
 for (let i = 1; i <= 10; i++) {
   console.log(`${tableNum} × ${i} = ${tableNum * i}`);
 }
+
+
+// problem 88 //
+
+let playerName = "Saurabh";
+
+if (playerName.startsWith("S")) {
+  console.log("Name starts with S ");
+} else {
+  console.log("Name doesn’t start with S ");
+}
