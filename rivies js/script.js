@@ -1097,3 +1097,14 @@ for (let i = 0; i < randomNums.length; i++) {
   }
 }
 console.log("Sum of even numbers:", evenSum);
+
+
+// problem 92 //
+
+let userAge = 17;
+
+if (userAge >= 18) {
+  console.log("Adult 👨");
+} else {
+  console.log("Minor ");
+}
