@@ -1083,3 +1083,17 @@ if (favMovies.length > 5) {
 let tempFahrenheit = (tempCelsius * 9/5) + 32;
 
 console.log("Temperature in Fahrenheit:", tempFahrenheit);
+
+
+
+// problem 91 //
+
+let randomNums = [2, 5, 8, 11, 14];
+let evenSum = 0;
+
+for (let i = 0; i < randomNums.length; i++) {
+  if (randomNums[i] % 2 === 0) {
+    evenSum += randomNums[i];
+  }
+}
+console.log("Sum of even numbers:", evenSum);
