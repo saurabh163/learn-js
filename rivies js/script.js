@@ -1104,7 +1104,16 @@ console.log("Sum of even numbers:", evenSum);
 let userAge = 17;
 
 if (userAge >= 18) {
-  console.log("Adult 👨");
+  console.log("Adult ");
 } else {
   console.log("Minor ");
+}
+
+
+// problem93 //
+
+let countryName = "India";
+
+for (let i = 0; i < countryName.length; i++) {
+  console.log(countryName[i]);
 }
