@@ -1033,3 +1033,12 @@ if (testNum % 2 === 0 && testNum % 3 === 0) {
 } else {
   console.log("Not divisible ");
 }
+
+
+// problem 87 //
+
+let tableNum = 5;
+
+for (let i = 1; i <= 10; i++) {
+  console.log(`${tableNum} × ${i} = ${tableNum * i}`);
+}
