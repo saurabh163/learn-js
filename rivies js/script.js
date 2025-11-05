@@ -1062,3 +1062,15 @@ let math = 78, sci = 85, eng = 90;
 let avgMarks = (math + sci + eng) / 3;
 
 console.log("Average Marks:", avgMarks);
+
+
+/// problem 90 //
+
+
+let favMovies = ["KGF", "Pushpa", "Leo", "Dune", "Batman", "RRR"];
+
+if (favMovies.length > 5) {
+  console.log("Big movie list 🎬");
+} else {
+  console.log("Small movie list 🍿");
+}
