@@ -1021,3 +1021,15 @@ let smallNote = "JavaScript is easy";
 let charCount = smallNote.length;
 
 console.log("Total characters:", charCount);
+
+
+
+//  problem 86  //
+
+let testNum = 12;
+
+if (testNum % 2 === 0 && testNum % 3 === 0) {
+  console.log("Divisible by both 2 and 3 ");
+} else {
+  console.log("Not divisible ");
+}
