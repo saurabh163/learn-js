@@ -1117,3 +1117,16 @@ let countryName = "India";
 for (let i = 0; i < countryName.length; i++) {
   console.log(countryName[i]);
 }
+
+
+// problem 94 //
+
+let boxValues = [10, 5, 7, 3, 9];
+let minValue = boxValues[0];
+
+for (let i = 1; i < boxValues.length; i++) {
+  if (boxValues[i] < minValue) {
+    minValue = boxValues[i];
+  }
+}
+console.log("Smallest number:", minValue);
