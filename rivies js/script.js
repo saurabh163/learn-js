@@ -1053,3 +1053,12 @@ if (playerName.startsWith("S")) {
 } else {
   console.log("Name doesn’t start with S ");
 }
+
+
+
+// problem 89 //
+
+let math = 78, sci = 85, eng = 90;
+let avgMarks = (math + sci + eng) / 3;
+
+console.log("Average Marks:", avgMarks);
