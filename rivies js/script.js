@@ -1142,3 +1142,12 @@ if (magicValue % 5 === 0) {
 } else {
   console.log(magicValue, "is not a multiple");
 }
+
+
+// problem 96 //
+
+let calcNum = 4;
+let square = calcNum * calcNum;
+let cube = calcNum * calcNum * calcNum;
+
+console.log("Square:", square, "Cube:", cube);
