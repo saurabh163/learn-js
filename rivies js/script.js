@@ -1130,3 +1130,15 @@ for (let i = 1; i < boxValues.length; i++) {
   }
 }
 console.log("Smallest number:", minValue);
+
+
+
+// problem 95 //
+
+let magicValue = 45;
+
+if (magicValue % 5 === 0) {
+  console.log(magicValue, "is a multiple of 5");
+} else {
+  console.log(magicValue, "is not a multiple");
+}
