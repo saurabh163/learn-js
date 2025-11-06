@@ -1186,3 +1186,17 @@ if (memberAge >= 60) {
 } else {
   console.log("Not a Senior Citizen");
 }
+
+
+/// problem 100 //
+
+let scoreBoard = [22, 45, 67, 89, 34];
+let highestScore = scoreBoard[0];
+
+for (let i = 1; i < scoreBoard.length; i++) {
+  if (scoreBoard[i] > highestScore) {
+    highestScore = scoreBoard[i];
+  }
+}
+
+console.log("Highest score is:", highestScore);
