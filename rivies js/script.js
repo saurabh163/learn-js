@@ -1175,3 +1175,14 @@ for (let i = 0; i < randomList.length; i++) {
   }
 }
 console.log("Total even numbers:", evEnCount);
+
+
+// problem 99 //
+
+let memberAge = 68;
+
+if (memberAge >= 60) {
+  console.log("Senior Citizen");
+} else {
+  console.log("Not a Senior Citizen");
+}
