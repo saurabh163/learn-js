@@ -1162,3 +1162,16 @@ if (websiteName.endsWith(".com")) {
 } else {
   console.log("Not a .com domain ");
 }
+
+
+// pronblem 98 //
+
+let randomList = [3, 8, 12, 5, 10];
+let evEnCount = 0;
+
+for (let i = 0; i < randomList.length; i++) {
+  if (randomList[i] % 2 === 0) {
+    evEnCount++;
+  }
+}
+console.log("Total even numbers:", evEnCount);
