@@ -1151,3 +1151,14 @@ let square = calcNum * calcNum;
 let cube = calcNum * calcNum * calcNum;
 
 console.log("Square:", square, "Cube:", cube);
+
+
+ // problem 97 //
+
+ let websiteName = "openai.com";
+
+if (websiteName.endsWith(".com")) {
+  console.log("This is a .com website ");
+} else {
+  console.log("Not a .com domain ");
+}
