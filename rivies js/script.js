@@ -1200,3 +1200,235 @@ for (let i = 1; i < scoreBoard.length; i++) {
 }
 
 console.log("Highest score is:", highestScore);
+
+
+
+// problem 101 //
+
+let heroNames = ["Ironman", "Thor", "Hulk", "Loki"];
+
+for (let i = 0; i < heroNames.length; i++) {
+  console.log(heroNames[i]);
+}
+
+
+// problem 102 //
+
+let pocketCoins = [10, 20, 30, 40];
+let totalCoins = 0;
+
+for (let i = 0; i < pocketCoins.length; i++) {
+  totalCoins += pocketCoins[i];
+}
+console.log("Total coins:", totalCoins);
+
+
+
+// problem 103 //
+
+let mountainHeights = [120, 340, 560, 220, 800];
+let tallest = mountainHeights[0];
+
+for (let i = 1; i < mountainHeights.length; i++) {
+  if (mountainHeights[i] > tallest) {
+    tallest = mountainHeights[i];
+  }
+}
+console.log("Tallest mountain height:", tallest);
+
+
+// problem 104 //
+
+let bookPages = [450, 120, 300, 220];
+let smallest = bookPages[0];
+
+for (let i = 1; i < bookPages.length; i++) {
+  if (bookPages[i] < smallest) {
+    smallest = bookPages[i];
+  }
+}
+console.log("Smallest page count:", smallest);
+
+
+// problwm 105 //
+
+let numberSet = [3, 6, 8, 11, 20];
+let evencOunt = 0;
+
+for (let i = 0; i < numberSet.length; i++) {
+  if (numberSet[i] % 2 === 0) {
+    evencOunt++;
+  }
+}
+console.log("Total even numbers:", evencOunt);
+
+
+// problem 106//
+
+let cityList = ["Delhi", "Mumbai", "Chennai", "Pune"];
+
+for (let i = cityList.length - 1; i >= 0; i--) {
+  console.log(cityList[i]);
+}
+
+// problem 107 //
+
+let marksLst = [70, 80, 90, 60];
+let tOtalMarks = 0;
+
+for (let i = 0; i < marksLst.length; i++) {
+  tOtalMarks += marksLst[i];
+}
+let AvgMarks = tOtalMarks / marksLst.length;
+console.log("Average Marks:", AvgMarks);
+
+
+// problem 108 //
+
+let priceList = [10, 20, 30, 40];
+let newPrices = [];
+
+for (let i = 0; i < priceList.length; i++) {
+  newPrices.push(priceList[i] * 2);
+}
+console.log("Doubled Prices:", newPrices);
+
+
+// problem 109 //
+
+let fruitBasket = ["Apple", "Mango", "Banana"];
+let searchFruit = "Mango";
+
+if (fruitBasket.includes(searchFruit)) {
+  console.log(searchFruit, "is available ");
+} else {
+  console.log(searchFruit, "not found");
+}
+
+
+// problem 110 //
+
+
+let subjectMarks = [78, 85, 92, 88, 70];
+let totalMarKs = 0;
+
+for (let i = 0; i < subjectMarks.length; i++) {
+  totalMarKs += subjectMarks[i];
+}
+console.log("Total Marks:", totalMarKs);
+
+
+// problem 111//
+
+let numCollection = [12, 15, 7, 24, 33, 50];
+
+for (let i = 0; i < numCollection.length; i++) {
+  if (numCollection[i] % 2 !== 0) {
+    console.log("Odd number:", numCollection[i]);
+  }
+}
+
+
+// problwm 112 //
+
+let RandomNums = [2, 3, 4, 5];
+let totalProduct = 1;
+
+for (let i = 0; i < RandomNums.length; i++) {
+  totalProduct *= RandomNums[i];
+}
+console.log("Product of all numbers:", totalProduct);
+
+
+/// problem 113 //
+
+let speedList = [50, 120, 75, 200, 90];
+let below100 = 0;
+
+for (let i = 0; i < speedList.length; i++) {
+  if (speedList[i] < 100) {
+    below100++;
+  }
+}
+console.log("Count below 100:", below100);
+
+
+// problem 114 //
+
+let friendNames = ["Raj", "Simran", "Amit", "Rohit", "Om"];
+for (let i = 0; i < friendNames.length; i++) {
+  if (friendNames[i].length > 4) {
+    console.log(friendNames[i]);
+  }
+}
+
+
+// problem 115 //
+
+let cartPrices = [120, 250, 60, 90];
+let totalPrice = 0;
+
+for (let i = 0; i < cartPrices.length; i++) {
+  totalPrice += cartPrices[i];
+}
+console.log("Total Price ₹:", totalPrice);
+
+
+// problem 116 //
+
+let colorList = ["Red", "Blue", "Green", "Yellow"];
+let reverseColors = [];
+
+for (let i = colorList.length - 1; i >= 0; i--) {
+  reverseColors.push(colorList[i]);
+}
+console.log("Reversed Array:", reverseColors);
+
+
+// problem 117 //
+
+let mixValues = [-2, 5, -7, 8, 3, -1];
+let positiveCount = 0;
+
+for (let i = 0; i < mixValues.length; i++) {
+  if (mixValues[i] > 0) {
+    positiveCount++;
+  }
+}
+console.log("Positive numbers count:", positiveCount);
+
+
+// problem 118 //
+
+let ageList = [12, 18, 25, 30];
+let updatedAges = [];
+
+for (let i = 0; i < ageList.length; i++) {
+  updatedAges.push(ageList[i] + 10);
+}
+console.log("After adding 10:", updatedAges);
+
+
+ // problem 119 //
+
+
+ let carBrands = ["Tata", "BMW", "Audi", "Kia"];
+let searchCar = "Audi";
+let foundIndex = -1;
+
+for (let i = 0; i < carBrands.length; i++) {
+  if (carBrands[i] === searchCar) {
+    foundIndex = i;
+    break;
+  }
+}
+console.log("Index of", searchCar, "is:", foundIndex);
+
+
+ // problem 120 //
+
+let nuMB = 10;
+
+for (let i = 1; i <= 10; i++) {
+    console.log(numB + " x " + i + " = " + (numB * i));
+}
