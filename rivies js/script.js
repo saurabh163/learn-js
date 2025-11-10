@@ -1508,3 +1508,14 @@ if (isLogged) {
 } else {
     console.log("Please log in to continue.");
 }
+
+// problem 128 //
+
+
+let temperature = 32;
+
+if (temperature > 30) {
+    console.log("It's a hot day");
+} else {
+    console.log("The weather is cool");
+}
