@@ -1519,3 +1519,25 @@ if (temperature > 30) {
 } else {
     console.log("The weather is cool");
 }
+
+// problem 129 //
+
+let mathMarks = 85;
+let scienceMarks = 90;
+
+if (mathMarks <= 0 || scienceMarks <= 0) {
+  console.log("Invalid Marks");
+} 
+
+else if (mathMarks < 35 || scienceMarks < 35) {
+  console.log("Fail");
+} 
+
+else if (mathMarks > 80 && scienceMarks > 80) {
+  console.log("Excellent good  Performance");
+} 
+
+else {
+  console.log("Pass");
+}
+
