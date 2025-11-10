@@ -1474,3 +1474,15 @@ for (let i = 0; i < fruit.length; i++) {
         console.log(i + " is Odd");
     }
 }
+
+
+// problem 125 //
+
+let nuMS = 9;
+
+if (nuMS % 2 === 0) {
+    console.log("Even Number");
+    
+} else {
+    console.log("Odd Number");
+}
