@@ -1453,3 +1453,12 @@ for (let i = 1; i <= 10; i++) {
 for (let i = value.length - 1; i >= 0; i--) {
     console.log(value[i]);
 }
+
+
+ // problem 123 //
+
+let fruit = ["Apple", "Bnana", "Mango"];
+
+for (let i = 0; i < fruit.length; i++) {
+    console.log(fruit[i]);
+}
