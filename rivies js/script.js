@@ -1561,3 +1561,21 @@ else {
 let UserInput = prompt("Enter a number:");
 
 checkNumber(UserInput);
+
+
+
+// problem 131 //
+
+function checkDriving(age) {
+
+  if (age < 18) {
+    console.log("You cannot drive");
+  
+  } else {
+
+    console.log("You can drive");
+  }
+}
+
+checkDriving(16); 
+checkDriving(20); 
