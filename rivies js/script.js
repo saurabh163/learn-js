@@ -1498,3 +1498,13 @@ if (subjects.includes(favSubject)) {
 } else {
     console.log(favSubject + " is not in your subject list.");
 }
+
+// problem 127 // 
+
+let isLogged = false;
+
+if (isLogged) {
+    console.log("Welcome back, user!");
+} else {
+    console.log("Please log in to continue.");
+}
