@@ -1486,3 +1486,15 @@ if (nuMS % 2 === 0) {
 } else {
     console.log("Odd Number");
 }
+
+
+// problem 126 //
+
+let subjects = ["Math", "Science", "English"];
+let favSubject = "Science";
+
+if (subjects.includes(favSubject)) {
+    console.log(favSubject + " is one of your favorite subjects!");
+} else {
+    console.log(favSubject + " is not in your subject list.");
+}
