@@ -1462,3 +1462,15 @@ let fruit = ["Apple", "Bnana", "Mango"];
 for (let i = 0; i < fruit.length; i++) {
     console.log(fruit[i]);
 }
+
+ // problem 124 //
+
+ for (let i = 1; i <= 5; i++) {
+
+    if (i % 2 === 0) {
+        console.log(i + " is Even");
+
+    } else {
+        console.log(i + " is Odd");
+    }
+}
