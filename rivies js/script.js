@@ -1579,3 +1579,29 @@ function checkDriving(age) {
 
 checkDriving(16); 
 checkDriving(20); 
+
+
+// problem 132 //
+
+function checkResults(marksList) {
+
+    for (let i = 0; i < marksList.length; i++) {
+        let marks = marksList[i];
+
+        if (marks >= 90) {
+            console.log("Student " + (i+1) + "Grade A");
+
+        } else if (marks >= 70) {
+            console.log("Student " + (i+1) + "Grade B");
+
+        } else if (marks >= 50) {
+            console.log("Student " + (i+1) + "Grade C ");
+
+        } else {
+            console.log("Student " + (i+1) + "Fail ");
+        }
+    }
+}
+
+let studentsMarks = [95, 82, 67, 45, 100];
+checkResults(studentsMarks);
