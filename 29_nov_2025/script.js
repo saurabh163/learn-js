@@ -50,3 +50,22 @@ function isBig(arr) {
 
 console.log(isBig([1,2,3]));             
 console.log(isBig([1,2,3,4,5,6]));       
+
+
+// problem 05 //
+
+function checkSum(arr) {
+  let sum = arr.reduce((a,b) => a + b, 0);
+
+  if (sum > 20) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log(checkSum([5,5,5,5]));  
+console.log(checkSum([3,4,2]));    
+
+
+
