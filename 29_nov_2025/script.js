@@ -37,3 +37,16 @@ function isFirstEven(arr) {
 
 console.log(isFirstEven([4,5,6])); 
 console.log(isFirstEven([3,4,6])); 
+
+// problem 04 //
+
+function isBig(arr) {
+  if (arr.length > 5) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log(isBig([1,2,3]));             
+console.log(isBig([1,2,3,4,5,6]));       
