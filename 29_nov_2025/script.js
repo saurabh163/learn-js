@@ -68,4 +68,16 @@ console.log(checkSum([5,5,5,5]));
 console.log(checkSum([3,4,2]));    
 
 
+// problem 06 //
+
+function hasHello(arr) {
+  if (arr.includes("hello")) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log(hasHello(["hi","hello"])); 
+console.log(hasHello(["hi","bye"]));   
 
