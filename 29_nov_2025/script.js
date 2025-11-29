@@ -23,3 +23,17 @@ function findNumber(arr, num) {
 
 console.log(findNumber([1,2,3], 2)); 
 console.log(findNumber([1,2,3], 5)); 
+
+
+/// problem 03 //
+
+function isFirstEven(arr) {
+  if (arr[0] % 2 === 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log(isFirstEven([4,5,6])); 
+console.log(isFirstEven([3,4,6])); 
