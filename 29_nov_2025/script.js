@@ -81,3 +81,17 @@ function hasHello(arr) {
 console.log(hasHello(["hi","hello"])); 
 console.log(hasHello(["hi","bye"]));   
 
+// problem 07 //
+
+function checkLast(arr) {
+  let last = arr[arr.length - 1];
+
+  if (last > 50) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log(checkLast([10,20,60])); 
+console.log(checkLast([10,20,30])); 
