@@ -95,3 +95,17 @@ function checkLast(arr) {
 
 console.log(checkLast([10,20,60])); 
 console.log(checkLast([10,20,30])); 
+
+// problem 08 //
+
+function allPositive(arr) {
+  for (let num of arr) {
+    if (num < 0) {
+      return false;
+    }
+  }
+  return true;
+}
+
+console.log(allPositive([1,2,3]));     
+console.log(allPositive([1,-1,3]));    
