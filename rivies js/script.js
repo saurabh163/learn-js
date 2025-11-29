@@ -1605,3 +1605,277 @@ function checkResults(marksList) {
 
 let studentsMarks = [95, 82, 67, 45, 100];
 checkResults(studentsMarks);
+
+
+
+// problem 133 //
+
+function calculateDiscount(amount) 
+{
+  if (amount <= 0) {
+    console.log("Invalid Amount");
+  } 
+
+  else if (amount < 500) {
+    console.log("No Discount");
+  }
+
+  else if (amount <= 1000) {
+    let discount = amount * 0.10;
+    console.log("10% Discount Applied");
+  }
+
+  else if (amount <= 5000) {
+    let discount = amount * 0.20;
+    console.log("20% Discount Applied");
+  }
+
+  else {
+    let discount = amount * 0.30;
+    console.log("30% Discount Applied");
+  }
+}
+
+
+calculateDiscount(-200);  
+
+calculateDiscount(300);  
+
+calculateDiscount(800);  
+
+calculateDiscount(2000);  
+
+calculateDiscount(6000);
+
+
+
+// problem 134 //
+
+
+function checkResult(marks) {
+  
+  if (marks <= 0) {
+    console.log("Invalid Marks");
+  } 
+
+  else if (marks < 35) {
+    console.log("Fail");
+  } 
+
+  else {
+    console.log("Pass");
+  }
+}
+
+// function calls kiya gaya// 
+
+checkResult(0);  
+checkResult(25); 
+checkResult(60);  
+
+
+// problem 135 //
+
+function checkDriving(age) {
+
+  if (age < 18) {
+    console.log("You cannot drive");
+  
+  } else {
+
+    console.log("You can drive");
+  }
+}
+
+checkDriving(16); 
+checkDriving(20); 
+
+
+// problem 136 //
+
+let distance = 120;  
+let ratePerKm = 6;     
+
+let totalFare = distance * ratePerKm;  
+
+if (distance <= 0 || ratePerKm <= 0) {
+  console.log("Invalid Input");
+} 
+
+else if (totalFare > 500) {
+  let discount = totalFare * 0.10;       
+  let finalFare = totalFare - discount;  
+  console.log("You got 10% Off");
+  console.log("Final Fare:");
+} 
+
+else {
+  console.log("No Discount, Please Pay Full Amount");
+  console.log("Total Fare");
+}
+
+// problem 137 //
+
+let ticketPrice = 250;
+let tickets = 10;
+
+let Total = ticketPrice * tickets;
+
+if (ticketPrice <= 0 || tickets <= 0) {
+  console.log("Invalid Input");
+}  
+
+else if (total > 2000) {
+  let discount = total * 0.10;
+  let finalBill = total - discount;
+  console.log("You got 10% Discount");
+  console.log("Final Bill:");
+} 
+
+else {
+  console.log("No Discount, Please Pay Full Amount");
+  console.log("Total Bill:");
+}
+
+
+// roblem 138 //
+
+let MaRks = 85;
+
+if (MaRks <= 0) {
+  console.log("Invalid Marks");
+} 
+
+else if (MaRks > 100) {
+  console.log("Marks cannot be more than 100");
+} 
+
+else if (MaRks < 35) {
+  console.log("Fail");
+} 
+
+else if (MaRks >= 35 && MaRks <= 60) {
+  console.log("Pass");
+} 
+
+else if (MaRks >= 61 && MaRks <= 80) {
+  console.log("First Class");
+} 
+
+else {
+  console.log("Distinction");
+}
+
+// problem 139 //
+
+
+let username = "admin";   
+
+let password = "1234";    
+
+if (!username || !password) {
+  console.log("Please enter username and password!");
+} 
+
+else if (username === "admin" && password === "1234") {
+  console.log("Login Successful ");
+} 
+
+else if (username !== "admin") {
+  console.log("Invalid Username ");
+} 
+
+else if (password !== "1234") {
+  console.log("Invalid Password ");
+}
+
+// problem 140 //
+
+let Balance = 5000;   
+let Withdraw = 3000;  
+
+if (withdraw <= balance) {
+    console.log("Transaction Successful");
+    balance = balance - withdraw;  
+    console.log("Remaining Balance: " + balance);
+} else {
+    console.log("Insufficient Balance");
+}
+
+
+// problem 141//
+
+let marKs = 85; 
+
+ if (marKs >= 90) 
+    console.log(" Grade A ");
+
+  else if (marKs >= 75) 
+    console.log(" Grade B ");
+
+  else if (marKs >= 50) 
+    console.log(" Grade C ");
+
+  else 
+    console.log(" Fail ");
+ 
+
+
+  // problem 142 //
+
+  function checkNumbers(nums) {
+
+    for (let i = 0; i < nums.length; i++) {
+        let n = nums[i];
+
+        if (n > 0) {
+            console.log(n + " is Positive");
+
+        } else if (n < 0) {
+            console.log(n + " is Negative");
+            
+        } else {
+            console.log(n + " is Zero");
+        }
+    }
+}
+
+checkNumbers([5, -2, 0, 10, -7]);
+
+
+// problem 143 //
+
+let randOmNums = [2, 5, 8, 11, 14];
+let evenSUm = 0;
+
+for (let i = 0; i < randOmNums.length; i++) {
+  if (randOmNums[i] % 2 === 0) {
+    evenSUm += randOmNums[i];
+  }
+}
+console.log("Sum of even numbers:", evenSUm);
+
+
+// problem 144 //
+
+let ArR = [2, 4, 6, 8];
+let sUm = 0;
+
+for (let i = 0; i < ArR.length; i++) {
+  sUm += ArR[i];
+}
+console.log("Sum:", sUm);
+
+
+
+// problem 145 //
+
+
+
+let Mitrmandali = ["abhishek", "vaishnavi", "nikita", "saurah", "abhijeet"];
+for (let i = 0; i < Mitrmandali.length; i++) {
+  if (Mitrmandali[i].length > 4) {
+    console.log(Mitrmandali[i]);
+  }
+}
+
