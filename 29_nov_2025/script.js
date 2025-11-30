@@ -109,3 +109,19 @@ function allPositive(arr) {
 
 console.log(allPositive([1,2,3]));     
 console.log(allPositive([1,-1,3]));    
+
+// problem //
+
+function checkDriving(age) {
+
+  if (age < 18) {
+    console.log("You cannot drive");
+  
+  } else {
+
+    console.log("You can drive");
+  }
+}
+
+checkDriving(16); 
+checkDriving(20); 
