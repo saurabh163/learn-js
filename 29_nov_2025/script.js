@@ -236,3 +236,10 @@ if (temperature > 30) {
 } else {
     console.log("The weather is cool");
 }
+
+
+// problem 19 //
+
+for (let step = 1; step <= 5; step++) {
+  console.log("Step number:", step);
+}
