@@ -149,3 +149,16 @@ else {
   console.log("No Discount, Please Pay Full Amount");
   console.log("Total Fare");
 }
+
+
+// problem 11 //
+
+ for (let i = 1; i <= 5; i++) {
+
+    if (i % 2 === 0) {
+        console.log(i + " is Even");
+
+    } else {
+        console.log(i + " is Odd");
+    }
+}
