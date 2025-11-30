@@ -171,3 +171,12 @@ let value = [10, 20, 30, 40, 50];
 for (let i = value.length - 1; i >= 0; i--) {
     console.log(value[i]);
 }
+
+
+// problem 13 //
+
+let fruit = ["Apple", "Bnana", "Mango"];
+
+for (let i = 0; i < fruit.length; i++) {
+    console.log(fruit[i]);
+}
