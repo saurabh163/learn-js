@@ -193,3 +193,14 @@ for (let i = 1; i <= 5; i++) {
         console.log(i + " is Odd");
     }
 }
+
+/// problem 15 //
+
+let num = 9;
+
+if (num % 2 === 0) {
+    console.log("Even Number");
+    
+} else {
+    console.log("Odd Number");
+}
