@@ -263,3 +263,19 @@ for (let i = 1; i < marksList.length; i++) {
   }
 }
 console.log("Minimum marks:", min);
+
+
+// problem 22 //
+
+let numArray = [1, 2, 3, 4, 5, 6];
+let evenCount = 0;
+let oddCount = 0;
+
+for (let i = 0; i < numArray.length; i++) {
+  if (numArray[i] % 2 === 0) {
+    evenCount++;
+  } else {
+    oddCount++;
+  }
+}
+console.log("Even:", evenCount, "Odd:", oddCount);
