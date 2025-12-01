@@ -279,3 +279,14 @@ for (let i = 0; i < numArray.length; i++) {
   }
 }
 console.log("Even:", evenCount, "Odd:", oddCount);
+
+
+// problem 23 //
+
+let nUm = -5;
+
+if (num > 0) {
+  console.log("Number is Positive");
+} else {
+  console.log("Number is Negative");
+}
