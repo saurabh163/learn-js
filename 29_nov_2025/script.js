@@ -311,3 +311,18 @@ let numbers = [10, 20, 30, 40, 50];
 for (let i = numbers.length - 1; i >= 0; i--) {
     console.log(numbers[i]);
 }
+
+// problem 26 //
+
+function allCheck() {
+  let n = document.getElementById("name").value;
+  let e = document.getElementById("email").value;
+  let p = document.getElementById("password").value;
+
+  if (n === "" || e === "" || p === "") {
+    document.getElementById("alert").innerText = "All fields are required!";
+    return false;
+  }
+  document.getElementById("alert").innerText = "Form submitted successfully!";
+  return true;
+}
