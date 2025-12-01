@@ -363,3 +363,15 @@ function checkEvenOdd(num) {
   }
 }
 checkEvenOdd(9);
+
+// problem 30 //
+
+let arr = [true, false, true, true, false];
+let count = 0;
+
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i] === true) {
+    count++;
+  }
+}
+console.log("True count:", count);
