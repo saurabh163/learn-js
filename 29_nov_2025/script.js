@@ -375,3 +375,10 @@ for (let i = 0; i < arr.length; i++) {
   }
 }
 console.log("True count:", count);
+
+// problem 31 // 
+
+function getEven(arr) {
+  return arr.filter(num => num % 2 === 0);
+}
+console.log(getEven([2, 5, 7, 8, 10]));
