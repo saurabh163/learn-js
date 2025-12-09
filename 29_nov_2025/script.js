@@ -382,3 +382,226 @@ function getEven(arr) {
   return arr.filter(num => num % 2 === 0);
 }
 console.log(getEven([2, 5, 7, 8, 10]));
+
+
+// problem 32 //
+
+let Balance = 5000;   
+let Withdraw = 3000;  
+
+if (withdraw <= balance) {
+    console.log("Transaction Successful");
+    balance = balance - withdraw;  
+    console.log("Remaining Balance: " + balance);
+} else {
+    console.log("Insufficient Balance");
+}
+
+//  problem 33 //
+
+let username = "admin";   
+
+let password = "1234";    
+
+if (!username || !password) {
+  console.log("Please enter username and password!");
+} 
+
+else if (username === "admin" && password === "1234") {
+  console.log("Login Successful ");
+} 
+
+else if (username !== "admin") {
+  console.log("Invalid Username ");
+} 
+
+else if (password !== "1234") {
+  console.log("Invalid Password ");
+}
+
+
+// problem 34 //
+
+let balance = 5000;
+
+let withdraw = 2000; 
+
+if (!withdraw) {
+  console.log("Please enter valid amount....!");
+} 
+
+else if (typeof withdraw !== "number" || withdraw <= 0) {
+  console.log("Invalid Amount");
+} 
+
+else if (withdraw > balance) {
+  console.log("Insufficient Balance");
+} 
+
+else {
+  balance = balance - withdraw;
+  console.log("Transaction Successful");
+  console.log("Remaining Balance");
+}
+
+// problem 35 //
+
+let Marks = 85;
+
+if (marks <= 0) {
+  console.log("Invalid Marks");
+} 
+
+else if (marks > 100) {
+  console.log("Marks cannot be more than 100");
+} 
+
+else if (marks < 35) {
+  console.log("Fail");
+} 
+
+else if (marks >= 35 && marks <= 60) {
+  console.log("Pass");
+} 
+
+else if (marks >= 61 && marks <= 80) {
+  console.log("First Class");
+} 
+
+else {
+  console.log("Distinction");
+}
+
+
+// problem 36 //
+
+let itemPrice = 1200;  
+let quantity = 5;       
+
+let total = itemPrice * quantity;  
+
+if (itemPrice <= 0 || quantity <= 0) {
+  console.log("Invalid Input");
+} 
+
+else if (total > 5000) {
+  console.log("You got Free Delivery");
+  console.log("Total Bill");
+} 
+
+else {
+  console.log("Delivery charge 50rs add hoga");
+  console.log("Total Bill");
+}
+
+
+// problem 37 //
+
+let mathMarks = 85;
+let scienceMarks = 90;
+
+if (mathMarks <= 0 || scienceMarks <= 0) {
+  console.log("Invalid Marks");
+} 
+
+else if (mathMarks < 35 || scienceMarks < 35) {
+  console.log("Fail");
+} 
+
+else if (mathMarks > 80 && scienceMarks > 80) {
+  console.log("Excellent good  Performance");
+} 
+
+else {
+  console.log("Pass");
+}
+
+//problem 38 //
+
+let ticketPrice = 250;
+let tickets = 10;
+
+let Total = ticketPrice * tickets;
+
+if (ticketPrice <= 0 || tickets <= 0) {
+  console.log("Invalid Input");
+}  
+
+else if (total > 2000) {
+  let discount = total * 0.10;
+  let finalBill = total - discount;
+  console.log("You got 10% Discount");
+  console.log("Final Bill:");
+} 
+
+else {
+  console.log("No Discount, Please Pay Full Amount");
+  console.log("Total Bill:");
+}
+
+// problem 39 //
+
+let diStance = 120;  
+let ratEPerKm = 6;     
+
+let tOtalFare = diStance * ratEPerKm;  
+
+if (diStance <= 0 || ratEPerKm <= 0) {
+  console.log("Invalid Input");
+} 
+
+else if (tOtalFare > 500) {
+  let discount = tOtalFare * 0.10;       
+  let finalFare = tOtalFare - discount;  
+  console.log("You got 10% Off");
+  console.log("Final Fare:");
+} 
+
+else {
+  console.log("No Discount, Please Pay Full Amount");
+  console.log("Total Fare");
+}
+
+// problem 40 //
+
+function checkDriving(age) {
+
+  if (age < 18) {
+    console.log("You cannot drive");
+  
+  } else {
+
+    console.log("You can drive");
+  }
+}
+
+checkDriving(16); 
+checkDriving(20); 
+
+
+//problem 41 //
+
+let marks = 85; 
+
+ if (marks >= 90) 
+    console.log(" Grade A ");
+
+  else if (marks >= 75) 
+    console.log(" Grade B ");
+
+  else if (marks >= 50) 
+    console.log(" Grade C ");
+
+  else 
+    console.log(" Fail ");
+ 
+
+  // problem 42 //
+
+  let Mitrmandali = ["abhishek", "vaishnavi", "nikita", "saurah", "abhijeet"];
+  
+for (let i = 0; i < Mitrmandali.length; i++) {
+  if (Mitrmandali[i].length > 4) {
+    console.log(Mitrmandali[i]);
+  }
+}
