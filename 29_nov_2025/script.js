@@ -599,9 +599,19 @@ let marks = 85;
   // problem 42 //
 
   let Mitrmandali = ["abhishek", "vaishnavi", "nikita", "saurah", "abhijeet"];
-  
+
 for (let i = 0; i < Mitrmandali.length; i++) {
   if (Mitrmandali[i].length > 4) {
     console.log(Mitrmandali[i]);
   }
 }
+
+// problem 43 //
+
+let Arr = [2, 4, 6, 8];
+let sum = 0;
+
+for (let i = 0; i < Arr.length; i++) {
+  sum += Arr[i];
+}
+console.log("Sum:", sum);
