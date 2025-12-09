@@ -637,3 +637,21 @@ function checkNumbers(nums) {
 }
 
 checkNumbers([5, -2, 0, 10, -7]);
+
+
+// problem 45 //
+
+let marKs = 85; 
+
+ if (marKs >= 90) 
+    console.log(" Grade A ");
+
+  else if (marKs >= 75) 
+    console.log(" Grade B ");
+
+  else if (marKs >= 50) 
+    console.log(" Grade C ");
+
+  else 
+    console.log(" Fail ");
+ 
