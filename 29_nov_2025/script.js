@@ -682,3 +682,14 @@ for (let i = 0; i < carBrands.length; i++) {
   }
 }
 console.log("Index of", searchCar, "is:", foundIndex);
+
+
+// problem 48 //
+
+let RandomNums = [2, 3, 4, 5];
+let totalProduct = 1;
+
+for (let i = 0; i < RandomNums.length; i++) {
+  totalProduct *= RandomNums[i];
+}
+console.log("Product of all numbers:", totalProduct);
