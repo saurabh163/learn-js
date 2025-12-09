@@ -704,3 +704,15 @@ for (let i = 0; i < numCollection.length; i++) {
     console.log("Odd number:", numCollection[i]);
   }
 }
+
+
+// problem 50 //
+
+let fruitBasket = ["Apple", "Mango", "Banana"];
+let searchFruit = "Mango";
+
+if (fruitBasket.includes(searchFruit)) {
+  console.log(searchFruit, "is available ");
+} else {
+  console.log(searchFruit, "not found");
+}
