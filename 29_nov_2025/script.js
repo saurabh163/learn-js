@@ -693,3 +693,14 @@ for (let i = 0; i < RandomNums.length; i++) {
   totalProduct *= RandomNums[i];
 }
 console.log("Product of all numbers:", totalProduct);
+
+
+// problem 49 //
+
+let numCollection = [12, 15, 7, 24, 33, 50];
+
+for (let i = 0; i < numCollection.length; i++) {
+  if (numCollection[i] % 2 !== 0) {
+    console.log("Odd number:", numCollection[i]);
+  }
+}
