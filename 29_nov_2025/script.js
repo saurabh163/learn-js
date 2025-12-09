@@ -615,3 +615,25 @@ for (let i = 0; i < Arr.length; i++) {
   sum += Arr[i];
 }
 console.log("Sum:", sum);
+
+
+// problem 44//
+
+function checkNumbers(nums) {
+
+    for (let i = 0; i < nums.length; i++) {
+        let n = nums[i];
+
+        if (n > 0) {
+            console.log(n + " is Positive");
+
+        } else if (n < 0) {
+            console.log(n + " is Negative");
+            
+        } else {
+            console.log(n + " is Zero");
+        }
+    }
+}
+
+checkNumbers([5, -2, 0, 10, -7]);
