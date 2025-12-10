@@ -16,3 +16,7 @@ function plus() {
   document.getElementById("count").innerText = num;
 }
 
+function show() {
+  let value = document.getElementById("user").value;
+  document.getElementById("result").innerText = "Hello " + value;
+}
