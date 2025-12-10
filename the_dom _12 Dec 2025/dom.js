@@ -5,3 +5,7 @@ function changeText() {
 function changeBG() {
   document.body.style.background = "lightblue";
 }
+
+function showText() {
+  document.getElementById("demo").style.display = "block";
+}
