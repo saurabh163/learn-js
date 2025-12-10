@@ -35,3 +35,13 @@ function add() {
 function del() {
   document.getElementById("remove").remove();
 }
+
+let btn = document.getElementById("btn");
+
+btn.addEventListener("mouseover", function () {
+  btn.style.background = "orange";
+});
+
+btn.addEventListener("mouseout", function () {
+  btn.style.background = "lightgray";
+});
