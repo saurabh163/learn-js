@@ -25,3 +25,9 @@ function dark() {
   document.body.style.background = "#111";
   document.body.style.color = "white";
 }
+
+function add() {
+  let li = document.createElement("li");
+  li.innerText = "New Item";
+  document.getElementById("list").appendChild(li);
+}
