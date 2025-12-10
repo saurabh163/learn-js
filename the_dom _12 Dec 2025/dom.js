@@ -20,3 +20,8 @@ function show() {
   let value = document.getElementById("user").value;
   document.getElementById("result").innerText = "Hello " + value;
 }
+
+function dark() {
+  document.body.style.background = "#111";
+  document.body.style.color = "white";
+}
