@@ -31,3 +31,7 @@ function add() {
   li.innerText = "New Item";
   document.getElementById("list").appendChild(li);
 }
+
+function del() {
+  document.getElementById("remove").remove();
+}
