@@ -9,3 +9,10 @@ function changeBG() {
 function showText() {
   document.getElementById("demo").style.display = "block";
 }
+
+let num = 0;
+function plus() {
+  num++;
+  document.getElementById("count").innerText = num;
+}
+
