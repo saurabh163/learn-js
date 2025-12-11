@@ -773,3 +773,10 @@ function highlightEmpty() {
 
   return valid;
 }
+
+
+// problem 54 //
+
+function showGender(ele) {
+  document.getElementById("msg").innerText = "Selected: " + ele.value;
+}
