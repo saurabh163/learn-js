@@ -730,3 +730,22 @@ function formatName() {
   input.value = words.join(" ");
   document.getElementById("result").innerText = "Formatted!";
 }
+
+// problem 52//
+function confirmEmail() {
+  let e1 = document.getElementById("email1").value;
+  let e2 = document.getElementById("email2").value;
+
+  if (e1 === "" || e2 === "") {
+    document.getElementById("msg").innerText = "Please fill both emails";
+    return false;
+  }
+
+  if (e1 !== e2) {
+    document.getElementById("msg").innerText = "Emails do not match";
+    return false;
+  }
+
+  document.getElementById("msg").innerText = "Emails match ";
+  return true;
+}
