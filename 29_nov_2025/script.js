@@ -749,3 +749,27 @@ function confirmEmail() {
   document.getElementById("msg").innerText = "Emails match ";
   return true;
 }
+
+// problem 53 //
+
+function highlightEmpty() {
+  let n = document.getElementById("n");
+  let e = document.getElementById("e");
+  let valid = true;
+
+  if (n.value === "") {
+    n.style.border = "2px solid red";
+    valid = false;
+  } else {
+    n.style.border = "2px solid green";
+  }
+
+  if (e.value === "") {
+    e.style.border = "2px solid red";
+    valid = false;
+  } else {
+    e.style.border = "2px solid green";
+  }
+
+  return valid;
+}
