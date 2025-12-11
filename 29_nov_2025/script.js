@@ -784,3 +784,13 @@ function showGender(ele) {
 
 //problem 55 //
 
+function limitText() {
+  let text = document.getElementById("bio").value;
+  if (text.length > 20) {
+    document.getElementById("msg").innerText = "Limit reached (20 chars max)!";
+    document.getElementById("bio").value = text.substring(0, 20);
+  } else {
+    document.getElementById("msg").innerText = text.length + "/20";
+  }
+}
+  
