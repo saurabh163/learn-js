@@ -716,3 +716,17 @@ if (fruitBasket.includes(searchFruit)) {
 } else {
   console.log(searchFruit, "not found");
 }
+
+// problem 51 //
+
+function formatName() {
+  let input = document.getElementById("name");
+  let words = input.value.split(" ");
+  for (let i = 0; i < words.length; i++) {
+    if (words[i].length > 0) {
+      words[i] = words[i][0].toUpperCase() + words[i].substring(1).toLowerCase();
+    }
+  }
+  input.value = words.join(" ");
+  document.getElementById("result").innerText = "Formatted!";
+}
