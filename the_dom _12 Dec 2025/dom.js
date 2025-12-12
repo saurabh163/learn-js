@@ -97,3 +97,8 @@ function toggleBG() {
 document.getElementById("txt").addEventListener("input", function () {
   document.getElementById("count").innerText = this.value.length;
 });
+
+function randomColor() {
+  let c = "#" + Math.floor(Math.random() * 16777215).toString(16);
+  document.body.style.background = c;
+}
