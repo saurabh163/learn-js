@@ -79,3 +79,17 @@ function add() {
 document.getElementById("inp").addEventListener("input", function () {
   document.getElementById("live").innerText = this.value;
 });
+
+let dark = false;
+
+function toggleBG() {
+  if (!dark) {
+    document.body.style.background = "black";
+    document.body.style.color = "white";
+    dark = true;
+  } else {
+    document.body.style.background = "white";
+    document.body.style.color = "black";
+    dark = false;
+  }
+}
