@@ -45,3 +45,15 @@ btn.addEventListener("mouseover", function () {
 btn.addEventListener("mouseout", function () {
   btn.style.background = "lightgray";
 });
+
+let count = 0;
+
+function inc() {
+  count++;
+  document.getElementById("out").innerText = count;
+}
+
+function dec() {
+  count--;
+  document.getElementById("out").innerText = count;
+}
