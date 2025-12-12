@@ -102,3 +102,12 @@ function randomColor() {
   let c = "#" + Math.floor(Math.random() * 16777215).toString(16);
   document.body.style.background = c;
 }
+
+function makeBox() {
+  let d = document.createElement("div");
+  d.style.width = "80px";
+  d.style.height = "80px";
+  d.style.background = "skyblue";
+  d.style.margin = "10px";
+  document.getElementById("area").appendChild(d);
+}
