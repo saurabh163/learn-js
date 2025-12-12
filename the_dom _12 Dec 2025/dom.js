@@ -69,3 +69,9 @@ function toggle() {
   let b = document.getElementById("box");
   b.style.display = b.style.display === "none" ? "block" : "none";
 }
+
+function add() {
+  let x = Number(document.getElementById("a").value);
+  let y = Number(document.getElementById("b").value);
+  document.getElementById("ans").innerText = x + y;
+}
