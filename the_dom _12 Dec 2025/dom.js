@@ -111,3 +111,13 @@ function makeBox() {
   d.style.margin = "10px";
   document.getElementById("area").appendChild(d);
 }
+
+function setRed() {
+  document.body.style.background = "red";
+}
+function setGreen() {
+  document.body.style.background = "green";
+}
+function setBlue() {
+  document.body.style.background = "blue";
+}
