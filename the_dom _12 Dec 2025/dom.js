@@ -57,3 +57,10 @@ function dec() {
   count--;
   document.getElementById("out").innerText = count;
 }
+
+function big() {
+  document.getElementById("text").style.fontSize = "30px";
+}
+function small() {
+  document.getElementById("text").style.fontSize = "14px";
+}
