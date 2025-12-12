@@ -64,3 +64,8 @@ function big() {
 function small() {
   document.getElementById("text").style.fontSize = "14px";
 }
+
+function toggle() {
+  let b = document.getElementById("box");
+  b.style.display = b.style.display === "none" ? "block" : "none";
+}
