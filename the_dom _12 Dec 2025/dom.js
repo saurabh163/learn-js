@@ -93,3 +93,7 @@ function toggleBG() {
     dark = false;
   }
 }
+
+document.getElementById("txt").addEventListener("input", function () {
+  document.getElementById("count").innerText = this.value.length;
+});
