@@ -75,3 +75,7 @@ function add() {
   let y = Number(document.getElementById("b").value);
   document.getElementById("ans").innerText = x + y;
 }
+
+document.getElementById("inp").addEventListener("input", function () {
+  document.getElementById("live").innerText = this.value;
+});
