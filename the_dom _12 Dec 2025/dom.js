@@ -125,3 +125,8 @@ function setBlue() {
 function disableBtn() {
   document.getElementById("btn").disabled = true;
 }
+
+function enableBtn() {
+  document.getElementById("btn").disabled =
+    !document.getElementById("check").checked;
+}
