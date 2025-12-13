@@ -165,3 +165,12 @@ function changeTitle() {
 function goTop() {
   window.scrollTo(0, 0);
 }
+
+function upper() {
+  document.getElementById("para").innerText =
+    document.getElementById("para").innerText.toUpperCase();
+}
+function lower() {
+  document.getElementById("para").innerText =
+    document.getElementById("para").innerText.toLowerCase();
+}
