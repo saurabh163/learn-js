@@ -153,3 +153,7 @@ box.addEventListener("blur", function () {
   box.style.border = "1px solid gray";
 });
 
+function toggle() {
+  let p = document.getElementById("pass");
+  p.type = p.type === "password" ? "text" : "password";
+}
