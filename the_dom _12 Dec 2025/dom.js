@@ -157,3 +157,7 @@ function toggle() {
   let p = document.getElementById("pass");
   p.type = p.type === "password" ? "text" : "password";
 }
+
+function changeTitle() {
+  document.title = "New Page Title";
+}
