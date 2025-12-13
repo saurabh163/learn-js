@@ -161,3 +161,7 @@ function toggle() {
 function changeTitle() {
   document.title = "New Page Title";
 }
+
+function goTop() {
+  window.scrollTo(0, 0);
+}
