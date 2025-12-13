@@ -137,3 +137,8 @@ function red() {
 function blue() {
   document.getElementById("text").style.color = "blue";
 }
+
+function copyText() {
+  document.getElementById("out").innerText =
+    document.getElementById("inp").value;
+}
