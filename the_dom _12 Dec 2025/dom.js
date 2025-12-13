@@ -121,3 +121,7 @@ function setGreen() {
 function setBlue() {
   document.body.style.background = "blue";
 }
+
+function disableBtn() {
+  document.getElementById("btn").disabled = true;
+}
