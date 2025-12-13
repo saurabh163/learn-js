@@ -142,3 +142,14 @@ function copyText() {
   document.getElementById("out").innerText =
     document.getElementById("inp").value;
 }
+
+let box = document.getElementById("box");
+
+box.addEventListener("focus", function () {
+  box.style.border = "2px solid blue";
+});
+
+box.addEventListener("blur", function () {
+  box.style.border = "1px solid gray";
+});
+
