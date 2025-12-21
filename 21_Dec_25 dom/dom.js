@@ -24,3 +24,7 @@ document.getElementById("add").onclick = function () {
 document.getElementById("removeBtn").onclick = function () {
   document.getElementById("removeMe").remove();
 };
+
+document.getElementById("text").addEventListener("input", function () {
+  document.getElementById("count").innerText = this.value.length;
+});
