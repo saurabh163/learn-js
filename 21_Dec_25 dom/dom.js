@@ -20,3 +20,7 @@ document.getElementById("add").onclick = function () {
   li.innerText = "New Item";
   document.getElementById("list").appendChild(li);
 };
+
+document.getElementById("removeBtn").onclick = function () {
+  document.getElementById("removeMe").remove();
+};
