@@ -15,3 +15,8 @@ document.getElementById("colorBtn").onclick = function () {
   document.body.style.background = "#e0f2fe";
 };
 
+document.getElementById("add").onclick = function () {
+  let li = document.createElement("li");
+  li.innerText = "New Item";
+  document.getElementById("list").appendChild(li);
+};
