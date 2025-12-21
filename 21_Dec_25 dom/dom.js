@@ -11,3 +11,7 @@ document.getElementById("input").addEventListener("input", function () {
   document.getElementById("preview").innerText = this.value;
 });
 
+document.getElementById("colorBtn").onclick = function () {
+  document.body.style.background = "#e0f2fe";
+};
+
